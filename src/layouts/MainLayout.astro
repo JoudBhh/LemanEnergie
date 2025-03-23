@@ -2,6 +2,7 @@
 import './src/styles/global.css';
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
+import ServiceCard from '../components/ServiceCard.astro';
 ---
 
 <!doctype html>
@@ -20,6 +21,7 @@ import Footer from '../components/Footer.astro';
     <Navbar />
     <section class="container mx-auto max-w-screen-xl mt-10 px-8">
       <slot />
+      <ServiceCard />
     </section>
     <Footer />
   </body>
