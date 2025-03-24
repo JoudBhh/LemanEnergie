@@ -4,25 +4,78 @@ import Mainlayout from '../layouts/MainLayout.astro';
 ---
 
 <Mainlayout>
-	<div>
-		<h1 class="text-4xl font-bold text-red-600">Plombier Annemasse</h1>
-		<h2 class="text-2xl text-blue-500">
-			Votre artisan Plombier chauffagiste en Haute-Savoie
-		</h2>
-		<h2 class="text-2xl text-blue-300">
-			Intervention 24/24h 7/7 sans Rendez Vous.
-		</h2>
-		<div>
-			<ul class="list-disc list-inside space-y-2">
-				<li>AGRÉE ASSURANCES</li>
-				<li>DEVIS GRATUIT</li>
-				<li>QUALITÉ / PRIX GARANTIE</li>
-				<li>PERSONNEL QUALIFIÉ</li>
-			</ul>
+	<div class="bg-image">
+		<div class="content text-left">
+			<h1 class="text-4xl font-bold text-red-500">Plombier Annemasse</h1>
+			<h2 class="text-2xl text-blue-500">
+				Votre artisan Plombier chauffagiste en Haute-Savoie
+			</h2>
+			<h2 class="text-2xl text-blue-300">
+				Intervention 24/24h 7/7 sans Rendez Vous.
+			</h2>
+			<div>
+				<ul class="list-disc list-inside space-y-2 text-blue-950">
+					<li>AGRÉE ASSURANCES</li>
+					<li>DEVIS GRATUIT</li>
+					<li>QUALITÉ / PRIX GARANTIE</li>
+					<li>PERSONNEL QUALIFIÉ</li>
+				</ul>
+			</div>
 		</div>
 	</div>
-	<ServiceCard />
 	<div class="w-full max-w-4xl bg-white shadow-md rounded-lg p-6 mx-auto">
+		<!-- Buttons -->
+		<div class="flex justify-center gap-4 mb-4">
+			<button
+				class="bg-red-600 text-white font-bold py-2 px-4 rounded-lg flex items-center gap-2 hover:bg-red-700 transition"
+			>
+				<svg
+					class="w-5 h-5"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					viewBox="0 0 24 24"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M15 10l4.553-2.276A2 2 0 0122 9.618v4.764a2 2 0 01-1.447 1.894L15 14"
+					></path>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M4 15V9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H6a2 2 0 01-2-2z"
+					></path>
+				</svg>
+				APPELEZ NOUS
+			</button>
+
+			<button
+				class="bg-blue-600 text-white font-bold py-2 px-4 rounded-lg flex items-center gap-2 hover:bg-blue-700 transition"
+			>
+				<svg
+					class="w-5 h-5"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					viewBox="0 0 24 24"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M17 9V7a4 4 0 00-8 0v2a6 6 0 00-6 6v4a2 2 0 002 2h12a2 2 0 002-2v-4a6 6 0 00-6-6z"
+					></path>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M12 16h.01"></path>
+				</svg>
+				DEVIS GRATUIT
+			</button>
+		</div>
+
 		<!-- Title -->
 		<h2 class="text-xl font-bold text-blue-700 text-center mb-4">
 			BESOIN D’AIDE ? DEMANDER À ÊTRE RAPPELÉ
@@ -59,14 +112,115 @@ import Mainlayout from '../layouts/MainLayout.astro';
 			/>
 
 			<!-- Submit Button -->
-			<div class="col-span-1 sm:col-span-2 flex justify-center">
-				<button
-					type="submit"
+			<div class="m-2">
+				<a
+					role="button"
+					href="#"
 					class="bg-red-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition"
 				>
 					ENVOYER
-				</button>
+				</a>
 			</div>
 		</form>
 	</div>
+	<ServiceCard />
+
+	<div
+		class="flex flex-col lg:flex-row items-center gap-8 max-w-6xl mx-auto p-6"
+	>
+		<!-- Images Section -->
+		<div class="grid grid-cols-2 gap-4">
+			<img
+				src="/images/image1.jpg"
+				alt="Detection 1"
+				class="rounded-lg w-40 h-40 object-cover"
+			/>
+			<img
+				src="images/image2.jpg"
+				alt="Detection 2"
+				class="rounded-lg w-40 h-40 object-cover"
+			/>
+			<img
+				src="images/image3.jpg"
+				alt="Detection 3"
+				class="rounded-lg w-40 h-40 object-cover"
+			/>
+			<img
+				src="images/image4.jpg"
+				alt="Detection 4"
+				class="rounded-lg w-40 h-40 object-cover"
+			/>
+		</div>
+
+		<!-- Text Content -->
+		<div class="flex-1">
+			<p class="text-sm font-bold text-blue-600 uppercase">
+				En savoir plus
+			</p>
+			<h2 class="text-4xl font-bold text-gray-900 mt-2">
+				Nous sommes disponibles 24h/24 et 7j/7
+			</h2>
+			<p class="mt-4 text-gray-700">
+				Besoin d’un <a href="#" class="text-blue-500 font-medium"
+					>plombier à Annemasse</a
+				> ou d’un
+				<a href="#" class="text-blue-500 font-medium"
+					>plombier à Annecy</a
+				> ?
+				<span class="font-bold"
+					>Disponibles 24 heures sur 24 et 7 jours sur 7</span
+				> pour intervenir et vous aider.
+				<span class="font-bold">De la fuite d’eau au tuyau percé</span>,
+				nous serons là pour vous aider à remettre votre maison ou votre
+				entreprise en état de fonctionnement.
+			</p>
+
+			<!-- Benefits -->
+			<div class="bg-white shadow-md rounded-lg p-4 mt-6">
+				<div class="flex items-center gap-2 mb-2">
+					<span class="text-green-500 text-xl">✔</span>
+					<p class="text-gray-900">Intervention rapide et efficace</p>
+				</div>
+				<div class="flex items-center gap-2">
+					<span class="text-green-500 text-xl">✔</span>
+					<p class="text-gray-900">Un tarif sans surprise</p>
+				</div>
+			</div>
+
+			<!-- Signature -->
+			<img
+				src="https://lemanenergie.fr/wp-content/uploads/2022/10/sassi-omar-plombier-annemasse.png"
+				alt="signature"
+			/>
+		</div>
+	</div>
 </Mainlayout>
+
+<style>
+	.bg-image {
+		position: relative; /* Position relative to allow absolute positioning of the overlay */
+		/* height: 100vh; Full height */
+		overflow: hidden; /* Ensure content stays within bounds */
+	}
+
+	.bg-image::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-image: url('/images/image27.jpg'); /* Path to your image */
+		background-size: cover;
+		background-position: center;
+		opacity: 0.5; /* Adjust opacity as needed */
+		z-index: 0; /* Send the background image to the back */
+	}
+
+	.content {
+		position: relative; /* Position relative to allow z-index */
+		z-index: 1; /* Bring the text to the front */
+		padding: 20px; /* Add some padding */
+		color: #fff; /* Change text color for better contrast if needed */
+	}
+</style>
