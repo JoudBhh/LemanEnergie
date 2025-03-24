@@ -22,4 +22,51 @@ import Mainlayout from '../layouts/MainLayout.astro';
 		</div>
 	</div>
 	<ServiceCard />
+	<div class="w-full max-w-4xl bg-white shadow-md rounded-lg p-6 mx-auto">
+		<!-- Title -->
+		<h2 class="text-xl font-bold text-blue-700 text-center mb-4">
+			BESOIN D’AIDE ? DEMANDER À ÊTRE RAPPELÉ
+		</h2>
+
+		<!-- Form -->
+		<form class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+			<!-- Name -->
+			<input
+				type="text"
+				placeholder="Nom et prénom"
+				class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
+			/>
+
+			<!-- Email -->
+			<input
+				type="email"
+				placeholder="Email"
+				class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
+			/>
+
+			<!-- Phone -->
+			<input
+				type="tel"
+				placeholder="Téléphone"
+				class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
+			/>
+
+			<!-- City -->
+			<input
+				type="text"
+				placeholder="Ville"
+				class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
+			/>
+
+			<!-- Submit Button -->
+			<div class="col-span-1 sm:col-span-2 flex justify-center">
+				<button
+					type="submit"
+					class="bg-red-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition"
+				>
+					ENVOYER
+				</button>
+			</div>
+		</form>
+	</div>
 </Mainlayout>
