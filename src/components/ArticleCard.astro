@@ -25,6 +25,17 @@ interface Props {
                 </a>
             </h2>
             <p class="text-gray-600 text-sm mb-4">
+                {article.data.firstline}
+            </p>
+
+            <a
+                href={'/articles/' + article.slug}
+                class="inline-block bg-indigo-100 px-3 py-2 hover:bg-indigo-600 hover:text-white rounded-lg"
+            >
+                Lire article
+            </a>
+
+            <p class="text-gray-600 text-sm mb-4 mt-4">
                 {formatDate(article.data.pubDate)}
             </p>
         </div>
