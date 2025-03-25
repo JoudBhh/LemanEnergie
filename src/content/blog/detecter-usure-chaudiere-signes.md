@@ -4,7 +4,7 @@ pubDate: 2024-01-20
 author: ''
 image: 'image1.jpg'
 tags: ['tech', 'hardware']
-slug: the-best-laptops-for-developers-in-2024
+slug: detecter-usure-chaudiere-signes
 ---
 
 Votre chaudière montre des signes de faiblesse ? Agissez vite ! Découvrez 6 signes d'usure à ne pas ignorer pour éviter une panne soudaine.
