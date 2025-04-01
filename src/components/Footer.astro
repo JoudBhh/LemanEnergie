@@ -4,14 +4,19 @@ import footerImg from '../images/footerimg.jpg';
 ---
 
 <footer class="w-full">
-    <div class="flex justify-center items-center bg-blue-400 p-10">
+    <!-- Contact Info -->
+    <div
+        class="flex flex-col sm:flex-row justify-center items-center bg-blue-400 p-10 space-y-2 sm:space-y-0 sm:space-x-10"
+    >
         <h1 class="px-10">contact@lemanenergie.fr</h1>
-        <h1 class="px10">04 58 10 51 99</h1>
+        <h1 class="px-10">04 58 10 51 99</h1>
     </div>
+
+    <!-- Main Footer Content -->
     <div
         class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex justify-center items-center"
     >
-        <!--Grid-->
+        <!-- Grid -->
         <div
             class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-3 md:gap-8 py-10 max-sm:max-w-sm max-sm:mx-auto gap-y-8"
         >
@@ -24,31 +29,25 @@ import footerImg from '../images/footerimg.jpg';
                     discuter de vos besoins et fixer un rendez-vous.
                 </p>
             </div>
+
+            <!-- Form Section -->
             <div class="w-full max-w-4xl bg-[rgb(243, 244, 246)] rounded-lg">
-                <!-- Form -->
                 <form class="grid grid-cols-1 sm:grid-cols-1 gap-4">
-                    <!-- Name -->
                     <input
                         type="text"
                         placeholder="Nom et prénom"
                         class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
                     />
-
-                    <!-- Email -->
                     <input
                         type="email"
                         placeholder="Email"
                         class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
                     />
-
-                    <!-- Phone -->
                     <input
                         type="tel"
                         placeholder="Téléphone"
                         class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
                     />
-
-                    <!-- City -->
                     <input
                         type="text"
                         placeholder="Ville"
@@ -67,6 +66,8 @@ import footerImg from '../images/footerimg.jpg';
                     </div>
                 </form>
             </div>
+
+            <!-- Image Section -->
             <div>
                 <img
                     src="/src/images/footerimg.jpg"
