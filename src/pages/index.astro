@@ -4,127 +4,32 @@ import Mainlayout from '../layouts/MainLayout.astro';
 ---
 
 <Mainlayout>
-	<div class="justify-content: flex-start">
-		<div>
-			<div class="content text-left">
-				<h1 class="text-4xl font-bold text-red-500">
-					Plombier Annemasse
-				</h1>
-				<h2 class="text-2xl text-blue-500">
-					Votre artisan Plombier chauffagiste en Haute-Savoie
-				</h2>
-				<h2 class="text-2xl text-blue-300">
-					Intervention 24/24h 7/7 sans Rendez Vous.
-				</h2>
-				<div>
-					<ul class="list-disc list-inside space-y-2 text-blue-950">
-						<li>AGRÉE ASSURANCES</li>
-						<li>DEVIS GRATUIT</li>
-						<li>QUALITÉ / PRIX GARANTIE</li>
-						<li>PERSONNEL QUALIFIÉ</li>
-					</ul>
-				</div>
+	<div class="flex justify-around mt-30">
+		<div class="content text-left">
+			<h1 class="text-4xl font-bold text-red-500">Plombier Annemasse</h1>
+			<h2 class="text-2xl text-blue-500">
+				Votre artisan Plombier chauffagiste en Haute-Savoie
+			</h2>
+			<h2 class="text-2xl text-blue-300">
+				Intervention 24/24h 7/7 sans Rendez Vous.
+			</h2>
+			<div>
+				<ul class="list-disc list-inside space-y-2 text-blue-950">
+					<li>AGRÉE ASSURANCES</li>
+					<li>DEVIS GRATUIT</li>
+					<li>QUALITÉ / PRIX GARANTIE</li>
+					<li>PERSONNEL QUALIFIÉ</li>
+				</ul>
 			</div>
 		</div>
-		<div class="w-full max-w-4xl bg-[rgb(243, 244, 246)] rounded-lg py-20">
-			<!-- Buttons -->
-			<div class="flex justify-center gap-4 mb-4">
-				<button
-					class="bg-red-600 text-white font-bold py-2 px-4 rounded-lg flex items-center gap-2 hover:bg-red-700 transition"
-				>
-					<svg
-						class="w-5 h-5"
-						fill="none"
-						stroke="currentColor"
-						stroke-width="2"
-						viewBox="0 0 24 24"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							d="M15 10l4.553-2.276A2 2 0 0122 9.618v4.764a2 2 0 01-1.447 1.894L15 14"
-						></path>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							d="M4 15V9a2 2 0 012-2h6a2 2 0 012 2v6a2 2 0 01-2 2H6a2 2 0 01-2-2z"
-						></path>
-					</svg>
-					APPELEZ NOUS
-				</button>
-
-				<button
-					class="bg-blue-600 text-white font-bold py-2 px-4 rounded-lg flex items-center gap-2 hover:bg-blue-700 transition"
-				>
-					<svg
-						class="w-5 h-5"
-						fill="none"
-						stroke="currentColor"
-						stroke-width="2"
-						viewBox="0 0 24 24"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							d="M17 9V7a4 4 0 00-8 0v2a6 6 0 00-6 6v4a2 2 0 002 2h12a2 2 0 002-2v-4a6 6 0 00-6-6z"
-						></path>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							d="M12 16h.01"></path>
-					</svg>
-					DEVIS GRATUIT
-				</button>
-			</div>
-
-			<!-- Title -->
-			<h2 class="text-xl font-bold text-blue-700 text-center mb-4">
-				BESOIN D’AIDE ? DEMANDER À ÊTRE RAPPELÉ
-			</h2>
-
-			<!-- Form -->
-			<form class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-				<!-- Name -->
-				<input
-					type="text"
-					placeholder="Nom et prénom"
-					class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
-				/>
-
-				<!-- Email -->
-				<input
-					type="email"
-					placeholder="Email"
-					class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
-				/>
-
-				<!-- Phone -->
-				<input
-					type="tel"
-					placeholder="Téléphone"
-					class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
-				/>
-
-				<!-- City -->
-				<input
-					type="text"
-					placeholder="Ville"
-					class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
-				/>
-
-				<!-- Submit Button -->
-				<div class="m-2">
-					<a
-						role="button"
-						href="#"
-						class="bg-red-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition"
-					>
-						ENVOYER
-					</a>
-				</div>
-			</form>
+		<div>
+			<img
+				src="src/images/image27.jpg"
+				height={1024}
+				width={650}
+				alt="Article Image"
+				class="object-cover hover:opacity-75 transition duration-300 ease-in-out"
+			/>
 		</div>
 	</div>
 	<ServiceCard />

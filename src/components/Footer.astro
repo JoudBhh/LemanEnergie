@@ -4,19 +4,75 @@ import footerImg from '../images/footerimg.jpg';
 ---
 
 <footer class="w-full">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-center items-center bg-blue-400 p-10">
+        <h1 class="px-10">contact@lemanenergie.fr</h1>
+        <h1 class="px10">04 58 10 51 99</h1>
+    </div>
+    <div
+        class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex justify-center items-center"
+    >
         <!--Grid-->
         <div
             class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-3 md:gap-8 py-10 max-sm:max-w-sm max-sm:mx-auto gap-y-8"
         >
             <div>
-                <h2>image</h2>
+                <h1>Formulaire de contact</h1>
+                <p>
+                    Notre formulaire de contact est le moyen le plus rapide
+                    d'entrer en contact avec l'un de nos plombiers qualifiés.
+                    Nous vous contacterons dans les plus brefs délais pour
+                    discuter de vos besoins et fixer un rendez-vous.
+                </p>
+            </div>
+            <div class="w-full max-w-4xl bg-[rgb(243, 244, 246)] rounded-lg">
+                <!-- Form -->
+                <form class="grid grid-cols-1 sm:grid-cols-1 gap-4">
+                    <!-- Name -->
+                    <input
+                        type="text"
+                        placeholder="Nom et prénom"
+                        class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
+                    />
+
+                    <!-- Email -->
+                    <input
+                        type="email"
+                        placeholder="Email"
+                        class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
+                    />
+
+                    <!-- Phone -->
+                    <input
+                        type="tel"
+                        placeholder="Téléphone"
+                        class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
+                    />
+
+                    <!-- City -->
+                    <input
+                        type="text"
+                        placeholder="Ville"
+                        class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500"
+                    />
+
+                    <!-- Submit Button -->
+                    <div class="m-2">
+                        <a
+                            role="button"
+                            href="#"
+                            class="bg-red-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition"
+                        >
+                            ENVOYER
+                        </a>
+                    </div>
+                </form>
             </div>
             <div>
-                <h2>conatct</h2>
-            </div>
-            <div>
-                <h2>formulaire</h2>
+                <img
+                    src="/src/images/footerimg.jpg"
+                    alt="Article Image"
+                    class="w-full object-cover hover:opacity-75 transition duration-300 ease-in-out"
+                />
             </div>
         </div>
     </div>
