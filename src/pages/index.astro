@@ -4,34 +4,42 @@ import Mainlayout from '../layouts/MainLayout.astro';
 ---
 
 <Mainlayout>
-	<div class="flex justify-around mt-30">
-		<div class="content text-left">
-			<h1 class="text-4xl font-bold text-red-500">Plombier Annemasse</h1>
-			<h2 class="text-2xl text-blue-500">
-				Votre artisan Plombier chauffagiste en Haute-Savoie
-			</h2>
-			<h2 class="text-2xl text-blue-300">
-				Intervention 24/24h 7/7 sans Rendez Vous.
-			</h2>
-			<div>
-				<ul class="list-disc list-inside space-y-2 text-blue-950">
-					<li>AGRÉE ASSURANCES</li>
-					<li>DEVIS GRATUIT</li>
-					<li>QUALITÉ / PRIX GARANTIE</li>
-					<li>PERSONNEL QUALIFIÉ</li>
-				</ul>
+	<div class="container mx-auto px-4 mt-30">
+		<div
+			class="flex flex-col-reverse sm:flex-row justify-around items-center gap-6"
+		>
+			<!-- Text Content -->
+			<div class="content text-center sm:text-left">
+				<h1 class="text-4xl font-bold text-red-500">
+					Plombier Annemasse
+				</h1>
+				<h2 class="text-2xl text-blue-500">
+					Votre artisan Plombier chauffagiste en Haute-Savoie
+				</h2>
+				<h2 class="text-2xl text-blue-300">
+					Intervention 24/24h 7/7 sans Rendez Vous.
+				</h2>
+				<div class="mt-4">
+					<ul class="list-disc list-inside space-y-2 text-blue-950">
+						<li>AGRÉE ASSURANCES</li>
+						<li>DEVIS GRATUIT</li>
+						<li>QUALITÉ / PRIX GARANTIE</li>
+						<li>PERSONNEL QUALIFIÉ</li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- Image -->
+			<div class="w-full sm:w-auto flex justify-center">
+				<img
+					src="src/images/image27.jpg"
+					alt="Article Image"
+					class="w-full sm:w-[650px] h-auto object-cover hover:opacity-75 transition duration-300 ease-in-out"
+				/>
 			</div>
 		</div>
-		<div>
-			<img
-				src="src/images/image27.jpg"
-				height={1024}
-				width={650}
-				alt="Article Image"
-				class="object-cover hover:opacity-75 transition duration-300 ease-in-out"
-			/>
-		</div>
 	</div>
+
 	<ServiceCard />
 
 	<div
