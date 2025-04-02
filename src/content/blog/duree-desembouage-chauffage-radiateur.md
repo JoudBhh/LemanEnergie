@@ -162,35 +162,39 @@ Economies d’énergie : Un système de chauffage central optimisé consomme moi
 
 Alors, après un bon désembouage, attendez-vous à ce que votre système de chauffage central fonctionne comme une horloge suisse, avec une précision et une efficacité inégalées. Et qui sait, avec toutes ces économies, vous pourriez même vous offrir ces vacances au ski que vous envisagez depuis si longtemps !
 
-Conseils pour entretenir votre chaudière et éviter le désembouage fréquent
+# Conseils pour entretenir votre chaudière et éviter le désembouage fréquent
+
+
 Si seulement nos chaudières pouvaient s’autonettoyer comme certains fours modernes, la vie serait si simple !
 
 Mais en attendant cette miraculeuse invention, laissons-nous vous donner quelques astuces pour garder votre système de chauffage en pleine forme, éviter ces vilaines boues et, avec un peu de chance, économiser quelques billets verts …
 
-Entretien régulier du circuit chauffage
+## Entretien régulier du circuit chauffage
+
 Comme pour toute machine, une chaudière nécessite de l’attention. Si vous ignorez votre chat, il vous le fera savoir. Votre chaudière, quant à elle, pourrait vous le faire payer en tombant en panne en plein hiver.
 
-Vérification annuelle : Faites appel à un professionnel pour vérifier votre système une fois par an. Il pourra détecter les problèmes avant qu’ils ne deviennent de gros soucis.
+**Vérification annuelle :** Faites appel à un professionnel pour vérifier votre système une fois par an. Il pourra détecter les problèmes avant qu’ils ne deviennent de gros soucis.
 
-Purge des radiateurs : Purger vos radiateurs permet d’éliminer l’air piégé, ce qui peut empêcher une distribution uniforme de la chaleur.
+**Purge des radiateurs :** Purger vos radiateurs permet d’éliminer l’air piégé, ce qui peut empêcher une distribution uniforme de la chaleur.
 
-Contrôle de la pression : Assurez-vous que la pression de votre chaudière se situe dans la plage recommandée. Trop haute ou trop basse, elle pourrait nuire à l’efficacité de votre système.
+**Contrôle de la pression :** Assurez-vous que la pression de votre chaudière se situe dans la plage recommandée. Trop haute ou trop basse, elle pourrait nuire à l’efficacité de votre système.
 
-Inspection des joints et des tuyaux : Avec le temps, les joints peuvent s’user et les tuyaux peuvent fuir. Une inspection régulière vous permettra d’identifier ces problèmes.
+**Inspection des joints et des tuyaux :** Avec le temps, les joints peuvent s’user et les tuyaux peuvent fuir. Une inspection régulière vous permettra d’identifier ces problèmes.
 
-Nettoyage des filtres : Si votre système en est équipé, n’oubliez pas de les nettoyer ou de les remplacer régulièrement.
+**Nettoyage des filtres :** Si votre système en est équipé, n’oubliez pas de les nettoyer ou de les remplacer régulièrement.
 
 Soyez proactif ! Ne laissez pas votre chaudière vous envoyer un SOS en dégageant de la fumée ou en faisant un bruit suspect.
 
-Utilisation de produits chimiques adaptés
+## Utilisation de produits chimiques adaptés
+
 Si vous pensiez que la chimie n’était réservée qu’aux savants fous ou à vos cours de lycée, détrompez-vous ! Votre chaudière pourrait bénéficier d’un peu de science elle aussi.
 
-Inhibiteurs de corrosion : Ces produits protègent votre système contre la corrosion. Ils prolongent la durée de vie de votre installation et maintiennent son efficacité.
+**Inhibiteurs de corrosion :** Ces produits protègent votre système contre la corrosion. Ils prolongent la durée de vie de votre installation et maintiennent son efficacité.
 
-Nettoyants pour chaudière : Il existe des produits spécialement conçus pour nettoyer les chaudières. Ils éliminent les boues et les dépôts avant qu’ils ne deviennent problématiques.
+**Nettoyants pour chaudière :** Il existe des produits spécialement conçus pour nettoyer les chaudières. Ils éliminent les boues et les dépôts avant qu’ils ne deviennent problématiques.
 
-Antigel : Si vous vivez dans une région où les températures chutent sérieusement, l’antigel peut empêcher votre système de geler.
+**Antigel :** Si vous vivez dans une région où les températures chutent sérieusement, l’antigel peut empêcher votre système de geler.
 
-Traitement de l’eau : Utilisez de l’eau traitée pour éviter la formation de tartre et de dépôts.
+**Traitement de l’eau :** Utilisez de l’eau traitée pour éviter la formation de tartre et de dépôts.
 
 Mais attention, tous les produits chimiques ne sont pas créés égaux ! Assurez-vous de choisir des produits adaptés à votre type de chaudière et lisez toujours les instructions. Si tout cela vous semble trop compliqué, n’hésitez pas à nous demander de l’aide. Après tout, mieux vaut prévenir que guérir …
