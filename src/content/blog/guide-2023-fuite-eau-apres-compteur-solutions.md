@@ -51,7 +51,7 @@ C’est un peu comme si d’un coup, vous découvriez que votre chat buvait auta
 Repérer une fuite tôt, c’est un peu comme trouver une pièce de monnaie dans le canapé : c’est toujours une bonne surprise. **Gardez un œil sur votre compteur d’eau, notez des lectures régulières et vérifiez l’état de votre installation pour une détection précoce.**
 
 <div class="bg-gray-100">
-    <div class="container py-12">
+    <div class="container py-5">
         <div class="flex flex-col lg:flex-row items-center lg:items-start gap-8">
             <div class="lg:w-1/2 text-left lg:text-left">
                 <h1>Le rôle du service d’eau potable</h1>
@@ -83,7 +83,7 @@ Repérer une fuite tôt, c’est un peu comme trouver une pièce de monnaie dans
 </div>
 
 <div class="bg-gray-100">
-    <div class="container py-12">
+    <div class="container py-5">
         <div class="flex flex-col lg:flex-row items-center lg:items-start gap-8">
             <div class="lg:w-1/2 text-left lg:text-left">
                 <h1>Conséquences financières et légales</h1>
