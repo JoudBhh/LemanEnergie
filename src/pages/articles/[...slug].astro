@@ -4,6 +4,8 @@ import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import { formatDate } from '../../utils';
 
+import { Image } from 'astro:assets';
+
 export async function getStaticPaths() {
     const allBlogArticles: CollectionEntry<'blog'>[] =
         await getCollection('blog');
