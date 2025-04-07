@@ -3,16 +3,23 @@ import ServiceCard from '../components/ServiceCard.astro';
 import Mainlayout from '../layouts/MainLayout.astro';
 import { Image } from 'astro:assets';
 import image27 from '../images/image27.jpg';
+import image2 from '../images/recherche-de-fuite-annemasse-16-Petite.jpg';
+import image3 from '../images/recherche-de-fuite-annemasse-3-Petite.jpg';
+import image4 from '../images/recherche-de-fuite-annemasse-6-Petite.jpg';
+import image5 from '../images/recherche-de-fuite-annemasse-8-Petite.jpg';
+import image6 from '../images/recherche-de-fuite-annemasse-11-Petite.jpg';
+import image7 from '../images/recherche-de-fuite-annemasse-13-Petite.jpg';
+import image8 from '../images/recherche-de-fuite-annemasse-3.jpg';
 ---
 
 <Mainlayout>
-	<div class="container mx-auto px-4 mt-30">
+	<div class="container mx-auto px-4 mt-25">
 		<div
 			class="flex flex-col sm:flex-row justify-around items-center gap-6"
 		>
 			<!-- Text Content -->
 			<div class="content text-center sm:text-left">
-				<h1 class="text-4xl font-bold text-red-500">
+				<h1 class="text-4xl font-bold text-red-600 red:text-red">
 					Plombier Annemasse
 				</h1>
 				<h2 class="text-2xl text-blue-500">
@@ -88,33 +95,32 @@ import image27 from '../images/image27.jpg';
 				<Image
 					src={image27}
 					alt="Article Image"
-					class="w-full sm:w-[800px] h-auto object-cover hover:opacity-75 transition duration-300 ease-in-out"
+					class="w-full sm:w-[825px] h-auto object-cover hover:opacity-75 transition duration-300 ease-in-out"
 				/>
 			</div>
 		</div>
-
-		<div class="flex justify-center mt-5 sm:w-full">
-			<div
-				class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-5 w-full px-4 sm:px-0"
-			>
-				<div class="w-full sm:w-auto">
-					<a
-						role="button"
-						href="#"
-						class="block text-center text-white bg-red-600 px-8 py-3 rounded-md hover:bg-blue-700 w-full"
-					>
-						APPELEZ NOUS
-					</a>
-				</div>
-				<div class="w-full sm:w-auto">
-					<a
-						role="button"
-						href="#"
-						class="block text-center text-white bg-blue-600 px-8 py-3 rounded-md hover:bg-red-700 w-full"
-					>
-						DEVIS GRATUIT
-					</a>
-				</div>
+	</div>
+	<div class="flex justify-center mt-5 sm:w-full px-4">
+		<div
+			class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-5 w-full px-4 sm:px-0"
+		>
+			<div class="w-full sm:w-auto">
+				<a
+					role="button"
+					href="#"
+					class="block text-center text-white bg-red-600 px-8 py-3 rounded-md hover:bg-blue-700 w-full"
+				>
+					APPELEZ NOUS
+				</a>
+			</div>
+			<div class="w-full sm:w-auto">
+				<a
+					role="button"
+					href="#"
+					class="block text-center text-white bg-blue-600 px-8 py-3 rounded-md hover:bg-red-700 w-full"
+				>
+					DEVIS GRATUIT
+				</a>
 			</div>
 		</div>
 	</div>
@@ -228,6 +234,105 @@ import image27 from '../images/image27.jpg';
 			<img
 				src="https://lemanenergie.fr/wp-content/uploads/2022/10/sassi-omar-plombier-annemasse.png"
 				alt="signature"
+			/>
+		</div>
+	</div>
+	<div
+		class="flex flex-col lg:flex-row items-center justify-between gap-8 px-6 py-10 max-w-7xl mx-auto"
+	>
+		<!-- Left Side Content (Text comes first on all screen sizes) -->
+		<div class="w-full lg:w-1/2">
+			<p class="text-blue-800 font-semibold mb-2">— NOTRE GALERIE</p>
+			<h2
+				class="text-3xl sm:text-4xl font-bold text-blue-900 mb-4 leading-tight"
+			>
+				Un aperçu d’un travail<br />bien réalisé.
+			</h2>
+			<p class="text-gray-600 mb-4">
+				Nous sommes expérimentés dans une variété de services de
+				plomberie, c’est la garantie d’un travail bien fait. Nous nous
+				engageons à fournir un travail de qualité.
+			</p>
+			<p class="text-gray-600 mb-6">
+				Contactez-nous pour en savoir plus sur nos services de plomberie
+				et sur la façon dont nous pouvons vous aider.
+			</p>
+
+			<!-- Bullet List -->
+			<ul class="space-y-3">
+				<li class="flex items-start">
+					<span class="text-blue-700 mr-2">→</span>
+					<span class="font-semibold text-blue-900"
+						>Services de plomberie rapides et efficaces</span
+					>
+				</li>
+				<li class="flex items-start">
+					<span class="text-blue-700 mr-2">→</span>
+					<span class="font-semibold text-blue-900"
+						>Membres de l'équipe qualifiés et formés</span
+					>
+				</li>
+				<li class="flex items-start">
+					<span class="text-blue-700 mr-2">→</span>
+					<span class="font-semibold text-blue-900"
+						>Nous sommes une entreprise de plomberie certifiée</span
+					>
+				</li>
+			</ul>
+		</div>
+
+		<!-- Right Side Image (Image comes second on all screen sizes) -->
+		<div class="w-full lg:w-1/2">
+			<Image
+				src={image2}
+				alt="Travail de plomberie"
+				class="w-full h-auto rounded-[40px] object-cover"
+			/>
+		</div>
+	</div>
+
+	<div class="px-4 py-10 max-w-7xl mx-auto">
+		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+			<!-- Image 1 -->
+			<Image
+				src={image3}
+				alt="Galerie 1"
+				class="rounded-2xl w-full h-auto object-cover"
+			/>
+
+			<!-- Image 2 -->
+			<Image
+				src={image4}
+				alt="Galerie 2"
+				class="rounded-2xl w-full h-auto object-cover"
+			/>
+
+			<!-- Image 3 -->
+			<Image
+				src={image5}
+				alt="Galerie 3"
+				class="rounded-2xl w-full h-auto object-cover"
+			/>
+
+			<!-- Image 4 -->
+			<Image
+				src={image6}
+				alt="Galerie 4"
+				class="rounded-2xl w-full h-auto object-cover"
+			/>
+
+			<!-- Image 5 -->
+			<Image
+				src={image7}
+				alt="Galerie 5"
+				class="rounded-2xl w-full h-auto object-cover"
+			/>
+
+			<!-- Image 6 -->
+			<Image
+				src={image8}
+				alt="Galerie 6"
+				class="rounded-2xl w-full h-auto object-cover"
 			/>
 		</div>
 	</div>
