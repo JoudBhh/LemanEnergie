@@ -2,7 +2,7 @@
 title: 'Obligation Entretien Chaudière : Ce Qu’il Faut Savoir'
 pubDate: 2023-02-16
 author: ''
-image: '../images/image5.jpg'
+image: ../images/image5.jpg
 width: ''
 height: ''
 alt: ''

@@ -2,7 +2,7 @@
 title: 'Chaudière usée : 6 signes à détecter pour agir vite !'
 pubDate: 2024-01-20
 author: ''
-image: '../images/signes-alerte-usure-chaudiere-image.jpg'
+image: ../images/signes-alerte-usure-chaudiere-image.jpg
 width: ''
 height: ''
 alt: 'signes alerte usure chaudière image'
