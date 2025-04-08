@@ -2,7 +2,8 @@
 title: 'Économisez sur votre facture d’eau en 2023'
 pubDate: 2023-08-21
 author: ''
-image: 'image9.jpg.webp'
+image: 'image9.jpg'
+alt: ''
 tags: ['tech', 'hardware']
 slug: economisez-sur-votre-facture-deau-en-2023
 firstline: Découvrez comment économiser sur votre facture d'eau en 2023. Des astuces maison pour réduire votre consommation.

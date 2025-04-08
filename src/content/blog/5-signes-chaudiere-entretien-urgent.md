@@ -3,6 +3,7 @@ title: '5 signes CRUCIAUX pour détecter une chaudière à bout de souffle'
 pubDate: 2024-01-18
 author: ''
 image: 'image3.jpg'
+alt: ''
 tags: ['tech', 'hardware']
 slug: 5-signes-chaudiere-entretien-urgent
 firstline: "Ne laissez pas votre chaudière vous lâcher en plein hiver ! Découvrez les 5 signes CRUCIAUX qui indiquent qu'elle a besoin d'un entretien urgent."

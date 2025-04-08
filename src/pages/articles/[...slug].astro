@@ -17,6 +17,9 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await entry.render();
+
+import { Image } from 'astro:assets';
+const myImage = import(`../../images/${entry.data.image}`);
 ---
 
 <MainLayout>
@@ -48,9 +51,9 @@ const { Content } = await entry.render();
                 ))
             }
         </div>
-        <img
-            src={'/images/' + entry.data.image}
-            alt="Article Image"
+        <Image
+            src={myImage}
+            alt={entry.data.alt}
             class="w-full h-auto rounded-xl mb-6"
         />
         <Content />

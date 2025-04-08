@@ -3,6 +3,7 @@ title: 'Obligation Entretien Chaudière : Ce Qu’il Faut Savoir'
 pubDate: 2023-02-16
 author: ''
 image: 'image5.jpg'
+alt: ''
 tags: ['tech', 'hardware']
 slug: obligation-entretien-chaudiere-infos
 firstline: Découvrez pourquoi l'entretien régulier de votre chaudière est crucial. Prévention des risques, économies d'énergie et obligations légales à connaître.

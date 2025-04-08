@@ -3,6 +3,7 @@ title: 'Comment entretenir une climatisation et son efficacité'
 pubDate: 2023-07-19
 author: ''
 image: 'image11.jpg'
+alt: ''
 tags: ['tech', 'hardware']
 slug: comment-entretenir-climatisation-et-efficacite
 firstline: Découvrez les meilleures méthodes d'entretien pour une climatisation efficace. Améliorez son rendement et prolongez sa durée de vie. Obtenez des conseils d'experts dès maintenant.
