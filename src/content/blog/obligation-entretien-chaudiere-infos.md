@@ -3,6 +3,8 @@ title: 'Obligation Entretien Chaudière : Ce Qu’il Faut Savoir'
 pubDate: 2023-02-16
 author: ''
 image: 'image5.jpg'
+width: ''
+height: ''
 alt: ''
 tags: ['tech', 'hardware']
 slug: obligation-entretien-chaudiere-infos

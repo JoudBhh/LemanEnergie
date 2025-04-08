@@ -3,6 +3,8 @@ title: 'Dépannage chauffage Annemasse'
 pubDate: 2023-11-24
 author: ''
 image: 'image6.jpg'
+width: ''
+height: ''
 alt: ''
 tags: ['tech', 'hardware']
 slug: depannage-chauffage-annemasse

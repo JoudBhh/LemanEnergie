@@ -51,11 +51,16 @@ const myImage = import(`../../images/${entry.data.image}`);
                 ))
             }
         </div>
-        <Image
-            src={myImage}
-            alt={entry.data.alt}
-            class="w-full h-auto rounded-xl mb-6"
-        />
+        <div class="flex justify-center items-center mb-6">
+            <Image
+                src={myImage}
+                alt="plomberie"
+                width={Number(entry.data.width)}
+                height={Number(entry.data.height)}
+                loading="lazy"
+                class="h-auto rounded-xl"
+            />
+        </div>
         <Content />
     </article>
 </MainLayout>
@@ -79,3 +84,4 @@ const myImage = import(`../../images/${entry.data.image}`);
         color: blue;
     }
 </style>
+<!-- sizes="(max-width: 768px) 100vw, 600px" -->

@@ -3,6 +3,8 @@ title: 'Chaudière non entretenue : Risques mortels et sanctions'
 pubDate: 2024-01-16
 author: ''
 image: 'image4.jpg'
+width: ''
+height: ''
 alt: ''
 tags: ['tech', 'hardware']
 slug: risques-non-entretien-chaudiere

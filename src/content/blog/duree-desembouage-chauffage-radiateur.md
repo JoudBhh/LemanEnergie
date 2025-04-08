@@ -3,6 +3,8 @@ title: 'Découvrez la durée du désembouage de votre chauffage'
 pubDate: 2023-09-18
 author: ''
 image: 'image8.jpg'
+width: ''
+height: ''
 alt: ''
 tags: ['tech', 'hardware']
 slug: duree-desembouage-chauffage-radiateur
