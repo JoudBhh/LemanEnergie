@@ -8,7 +8,7 @@ interface Props {
     article: CollectionEntry<'blog'>;
 }
 import { Image } from 'astro:assets';
-const myImage = import(`../images/${article.data.image}`);
+const myImage = import(`${article.data.image}`);
 ---
 
 <div class="max-w-sm mx-auto mt-0">

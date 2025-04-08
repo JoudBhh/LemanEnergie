@@ -2,7 +2,7 @@
 title: 'Économisez sur votre facture d’eau en 2023'
 pubDate: 2023-08-21
 author: ''
-image: 'image9.jpg'
+image: '../images/image9.jpg'
 width: ''
 height: ''
 alt: ''

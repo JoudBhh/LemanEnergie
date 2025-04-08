@@ -2,7 +2,7 @@
 title: '5 signes CRUCIAUX pour détecter une chaudière à bout de souffle'
 pubDate: 2024-01-18
 author: ''
-image: 'image3.jpg'
+image: '../images/image3.jpg'
 width: ''
 height: ''
 alt: ''

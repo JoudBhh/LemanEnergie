@@ -2,7 +2,7 @@
 title: 'Dépannage chauffage Annemasse'
 pubDate: 2023-11-24
 author: ''
-image: 'image6.jpg'
+image: '../images/image6.jpg'
 width: ''
 height: ''
 alt: ''
