@@ -4,9 +4,6 @@ import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import { formatDate } from '../../utils';
 
-import { Image } from 'astro:assets';
-import image1 from '../images/recherche-de-fuite-annemasse-16-Petite.jpg';
-
 export async function getStaticPaths() {
     const allBlogArticles: CollectionEntry<'blog'>[] =
         await getCollection('blog');
@@ -51,11 +48,11 @@ const { Content } = await entry.render();
                 ))
             }
         </div>
-        <!-- <Image
-            src={image1}
+        <img
+            src={'/images/' + entry.data.image}
             alt="Article Image"
             class="w-full h-auto rounded-xl mb-6"
-        /> -->
+        />
         <Content />
     </article>
 </MainLayout>
