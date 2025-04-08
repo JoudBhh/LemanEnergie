@@ -2,7 +2,7 @@
 import ServiceCard from '../components/ServiceCard.astro';
 import Mainlayout from '../layouts/MainLayout.astro';
 import { Image } from 'astro:assets';
-import image27 from '../images/image27.jpg';
+import homeImage from '../images/home-img.jpg';
 import image2 from '../images/recherche-de-fuite-annemasse-16-Petite.jpg';
 import image3 from '../images/recherche-de-fuite-annemasse-3-Petite.jpg';
 import image4 from '../images/recherche-de-fuite-annemasse-6-Petite.jpg';
@@ -18,11 +18,15 @@ import image8 from '../images/recherche-de-fuite-annemasse-3.jpg';
 			class="flex flex-col sm:flex-row justify-around items-center gap-6"
 		>
 			<!-- Text Content -->
-			<div class="content text-center sm:text-left">
-				<h1 class="text-4xl font-bold text-red-600 red:text-red">
+			<div class="w-full sm:w-1/2 text-center sm:text-left">
+				<h1
+					class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-900 mt-2"
+				>
 					Plombier Annemasse
 				</h1>
-				<h2 class="text-2xl text-blue-500">
+				<h2
+					class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-blue-400 mt-2"
+				>
 					Votre artisan Plombier chauffagiste en Haute-Savoie
 				</h2>
 				<h2 class="text-2xl text-blue-300">
@@ -91,9 +95,9 @@ import image8 from '../images/recherche-de-fuite-annemasse-3.jpg';
 			</div>
 
 			<!-- Image -->
-			<div class="w-full sm:w-auto flex justify-center">
+			<div class="w-full sm:w-1/2 flex justify-center">
 				<Image
-					src={image27}
+					src={homeImage}
 					alt="Article Image"
 					class="w-full sm:w-[825px] h-auto object-cover hover:opacity-75 transition duration-300 ease-in-out"
 				/>
