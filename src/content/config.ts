@@ -15,8 +15,21 @@ const blogCollection = defineCollection({
     })
 });
 
+// 🖼️ Image collection
+// const imageCollection = defineCollection({
+//     schema: z.object({
+//       title: z.string(),
+//       description: z.string().optional(),
+//       src: z.string(), // The path to the image file
+//       alt: z.string().optional(), // Optional alt text for accessibility
+//       date: z.date().optional(), // Optional date for when the image was added
+//     }),
+//   });
+  
+
 
 export const collections ={
     blog: blogCollection,
+    // images: imageCollection
 
 };
