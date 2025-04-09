@@ -20,7 +20,7 @@ const { Content } = await entry.render();
 
 import { Image } from 'astro:assets';
 
-// const myImage = import(`${entry.data.image}`);
+const myImage = import('../' + `${entry.data.image}`);
 ---
 
 <MainLayout>
@@ -52,7 +52,7 @@ import { Image } from 'astro:assets';
                 ))
             }
         </div>
-        <!-- <div class="flex justify-center items-center mb-6">
+        <div class="flex justify-center items-center mb-6">
             <Image
                 src={myImage}
                 alt="plomberie"
@@ -61,7 +61,7 @@ import { Image } from 'astro:assets';
                 loading="lazy"
                 class="h-auto rounded-xl"
             />
-        </div> -->
+        </div>
         <Content />
     </article>
 </MainLayout>
