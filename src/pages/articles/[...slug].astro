@@ -19,8 +19,11 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 
 import { Image } from 'astro:assets';
+import { imageMap } from '../../utils/imgMap';
 
-const myImage = import('../' + `${entry.data.image}`);
+const image = imageMap[entry.data.image as keyof typeof imageMap];
+
+//const myImage = import('../' + `${entry.data.image}`);
 ---
 
 <MainLayout>
@@ -54,7 +57,7 @@ const myImage = import('../' + `${entry.data.image}`);
         </div>
         <div class="flex justify-center items-center mb-6">
             <Image
-                src={myImage}
+                src={image}
                 alt="plomberie"
                 width={Number(entry.data.width)}
                 height={Number(entry.data.height)}

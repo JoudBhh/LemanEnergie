@@ -7,15 +7,20 @@ const { article } = Astro.props;
 interface Props {
     article: CollectionEntry<'blog'>;
 }
+
 import { Image } from 'astro:assets';
-const myImage = import(`${article.data.image}`);
+import { imageMap } from '../utils/imgMap';
+
+const image = imageMap[article.data.image as keyof typeof imageMap];
+
+//const myImage = import(`${article.data.image}`);
 ---
 
 <div class="max-w-sm mx-auto mt-0">
     <div class="bg-white rounded-lg overflow-hidden shadow-lg">
         <a href={'/articles/' + article.slug}>
             <Image
-                src={myImage}
+                src={image}
                 width={Number(article.data.width)}
                 height={Number(article.data.height)}
                 alt={article.data.alt}
