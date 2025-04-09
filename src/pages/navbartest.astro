@@ -1,0 +1,25 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import Mainlayout from '../layouts/MainLayout.astro';
+---
+
+<MainLayout>
+    <div class="bg-indigo-50 h-screen">
+        <!-- Navbar -->
+        <div class="flex items-center justify-center pt-12 text-x1">
+            <div class="group relative cursor-pointer">
+                <div>Men</div>
+                <div
+                    class="hidden group-hover:block absolute top-full left-0 bg-indigo-100"
+                >
+                    <div class="px-4 py-2 hover:bg-indigo-200">
+                        <a href="/articles">Shirts</a>
+                    </div>
+                    <div class="px-4 py-2 hover:bg-indigo-200">Trousers</div>
+                    <div class="px-4 py-2 hover:bg-indigo-200">Shoes</div>
+                    <div class="px-4 py-2 hover:bg-indigo-200">Accessories</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</MainLayout>
