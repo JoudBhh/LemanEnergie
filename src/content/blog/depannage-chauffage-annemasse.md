@@ -1,12 +1,12 @@
 ---
 title: 'Dépannage chauffage Annemasse'
 pubDate: 2023-11-24
-author: ''
-image: "../images/image6.jpg"
+author: 'Léman'
+image: "art6-img1.jpg"
+alt: 'Depannage chauffage Annemasse image'
 width: ''
 height: ''
-alt: ''
-tags: ['tech', 'hardware']
+tags: ['Chauffage', 'Dépannage']
 slug: depannage-chauffage-annemasse
 firstline: Dépannage chauffage Annemasse, contactez-nous dès maintenant pour un devis gratuit et profitez d'un service de qualité.
 ---
