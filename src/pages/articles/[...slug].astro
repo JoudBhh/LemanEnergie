@@ -31,18 +31,18 @@ const image = imageMap[entry.data.image as keyof typeof imageMap];
     <a
         href="/articles"
         class="mt-20 inline-block bg-gray-100 p-2 mb-6 hover:bg-indigo-500 hover:text-white"
-        >Back To Articles</a
+        >Retour aux articles</a
     >
     <article>
         <h1 class="text-4xl font-bold mb-2">
             {entry.data.title}
         </h1>
         <h3 class="text-lg mb-2">
-            Written by {entry.data.author} on {formatDate(entry.data.pubDate)}
+            Écrit par {entry.data.author} on {formatDate(entry.data.pubDate)}
         </h3>
         <div class="flex flex-wrap gap-2 mb-6">
             {
-                entry.data.tags.map((tag: string, index: number) => (
+                (entry.data.tags ?? []).map((tag: string, index: number) => (
                     <span
                         class={
                             index % 2 === 0
@@ -50,7 +50,7 @@ const image = imageMap[entry.data.image as keyof typeof imageMap];
                                 : 'px-2 py-1 bg-indigo-500 text-white rounded-full text-xs hover:opacity-90'
                         }
                     >
-                        <a href={'/articles/tag' + tag}>{tag}</a>
+                        <a href={'#' + tag}>{tag}</a>
                     </span>
                 ))
             }

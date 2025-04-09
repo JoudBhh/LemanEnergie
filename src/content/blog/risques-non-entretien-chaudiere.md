@@ -1,12 +1,12 @@
 ---
 title: 'Chaudière non entretenue : Risques mortels et sanctions'
-pubDate: 2024-01-16
-author: ''
-image: "../images/image4.jpg"
+pubDate: 2024-02-16
+author: Léman
+image: "art4-img1.jpg"
 width: ''
 height: ''
 alt: ''
-tags: ['tech', 'hardware']
+tags: ['Sécurité', 'Entretien']
 slug: risques-non-entretien-chaudiere
 firstline: 'Évitez le drame ! Découvrez les risques mortels et sanctions liés à une chaudière non entretenue. Entretenez votre sécurité et votre porte-monnaie !'
 ---
