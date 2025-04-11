@@ -1,25 +1,28 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
-import Mainlayout from '../layouts/MainLayout.astro';
 ---
 
 <MainLayout>
-    <div class="bg-indigo-50 h-screen">
-        <!-- Navbar -->
-        <div class="flex items-center justify-center pt-12 text-x1">
-            <div class="group relative cursor-pointer">
-                <div>Men</div>
-                <div
-                    class="hidden group-hover:block absolute top-full left-0 bg-indigo-100"
-                >
-                    <div class="px-4 py-2 hover:bg-indigo-200">
-                        <a href="/articles">Shirts</a>
-                    </div>
-                    <div class="px-4 py-2 hover:bg-indigo-200">Trousers</div>
-                    <div class="px-4 py-2 hover:bg-indigo-200">Shoes</div>
-                    <div class="px-4 py-2 hover:bg-indigo-200">Accessories</div>
-                </div>
-            </div>
+    <div
+        class="flex flex-col md:flex-row items-start max-w-6xl mx-auto p-0 gap-5 mt-30"
+    >
+        <!-- Left content: Title and Paragraph -->
+        <div class="md:w-2/3 text-left">
+            <h2 class="text-3xl font-bold mb-4">Your Awesome Title</h2>
+            <p class="text-gray-700 text-lg">
+                This is a descriptive paragraph that explains something
+                important or interesting. It provides enough detail to keep the
+                reader engaged and informed.
+            </p>
+        </div>
+
+        <!-- Right content: Image -->
+        <div class="md:w-1/3">
+            <img
+                src="/images/responsabilite-fuite-eau-logement-image.jpg.webp"
+                alt="Descriptive alt text"
+                class="w-full h-auto rounded-xl shadow-md"
+            />
         </div>
     </div>
 </MainLayout>
