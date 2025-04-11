@@ -7,6 +7,7 @@ import art6img1 from '../images/art6-img1.jpg';
 import art7img1 from '../images/art7-img1.jpg';
 import art8img1 from '../images/art8-img1.jpg';
 import art9img1 from '../images/art9-img1.jpg';
+import art10img1 from '../images/art10-img1.jpg';
 import art11img1 from '../images/art11-img1.jpg';
 import art12img1 from '../images/art12-img1.jpg';
 
@@ -21,6 +22,7 @@ export const imageMap = {
   'art7-img1.jpg': art7img1,
   'art8-img1.jpg': art8img1,
   'art9-img1.jpg': art9img1,
+  'art10-img1.jpg': art10img1,
   'art11-img1.jpg': art11img1,
   'art12-img1.jpg': art12img1,
 

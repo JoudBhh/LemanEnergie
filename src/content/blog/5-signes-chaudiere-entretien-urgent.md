@@ -10,10 +10,11 @@ tags: ['Détection', 'Chaudières']
 slug: 5-signes-chaudiere-entretien-urgent
 firstline: "Ne laissez pas votre chaudière vous lâcher en plein hiver ! Découvrez les 5 signes CRUCIAUX qui indiquent qu'elle a besoin d'un entretien urgent."
 ---
-<p class="flex justify-center">
-Ne laissez pas votre chaudière vous lâcher en plein hiver ! Découvrez les 5 signes CRUCIAUX qui indiquent qu'elle a besoin d'un entretien urgent.
-</p>
-
+<div class="flex justify-center items-center">
+  <p class="text-center">
+    Ne laissez pas votre chaudière vous lâcher en plein hiver ! Découvrez les 5 signes CRUCIAUX qui indiquent qu'elle a besoin d'un entretien urgent.
+  </p>
+</div>
 L’entretien régulier de votre chaudière est essentiel pour garantir son bon fonctionnement et éviter les problèmes.
 
 Mais comment savoir quand il est temps de faire appel à un professionnel pour entretenir votre chaudière ? 
