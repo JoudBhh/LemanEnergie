@@ -11,7 +11,9 @@ slug: detecter-usure-chaudiere-signes
 firstline: 'Votre chaudière montre des signes de faiblesse ? Agissez vite ! Découvrez 6 signes d usure à ne pas ignorer pour éviter une panne soudaine.'
 ---
 
+<p class="flex justify-center">
 Votre chaudière montre des signes de faiblesse ? Agissez vite ! Découvrez 6 signes d'usure à ne pas ignorer pour éviter une panne soudaine.
+</p>
 
 Découvrez comment prévenir les problèmes de votre chaudière avant qu’ils ne deviennent critiques.
 

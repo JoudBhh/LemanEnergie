@@ -22,10 +22,6 @@ const image = imageMap[article.data.image as keyof typeof imageMap];
             <Image
                 src={image}
                 alt={article.data.alt}
-                title={article.data.imgageTitle}
-                width={Number(article.data.width)}
-                height={Number(article.data.height)}
-                loading="lazy"
                 class="w-full h-48 object-cover hover:opacity-75 transition duration-300 ease-in-out"
             />
         </a>

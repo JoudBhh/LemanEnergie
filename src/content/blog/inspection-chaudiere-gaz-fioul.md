@@ -4,14 +4,16 @@ pubDate: 2024-02-26
 author: 'Léman'
 image: "art2-img1.jpg"
 imageTitle: "inspection fréquente chaudière"
-alt: 'inspection fréquente chaudière image'
+alt: 'inspection fréquente chaudière'
 width: ''
 height: ''
 tags: ['Chaudières', 'Inspection']
 slug: inspection-chaudiere-gaz-fioul
 firstline: 'Inspection chaudière gaz vs fioul. Découvrez la fréquence recommandée pour chaque type de chaudière et optimisez votre sécurité et performance !'
 ---
+<p class="flex justify-center">
 Inspection chaudière gaz vs fioul. Découvrez la fréquence recommandée pour chaque type de chaudière et optimisez votre sécurité et performance !
+</p>
 
 L’inspection régulière des chaudières à gaz et à fioul est essentielle pour assurer leur bon fonctionnement, leur sécurité et leur efficacité énergétique.
 

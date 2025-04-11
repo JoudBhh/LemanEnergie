@@ -11,7 +11,9 @@ tags: ['Sécurité', 'Entretien']
 slug: risques-non-entretien-chaudiere
 firstline: 'Évitez le drame ! Découvrez les risques mortels et sanctions liés à une chaudière non entretenue. Entretenez votre sécurité et votre porte-monnaie !'
 ---
+<p class="flex justify-center">
 Évitez le drame ! Découvrez les risques mortels et sanctions liés à une chaudière non entretenue. Entretenez votre sécurité et votre porte-monnaie !
+</p>
 
 L’entretien régulier de votre chaudière est essentiel pour assurer son bon fonctionnement et garantir votre sécurité.
 

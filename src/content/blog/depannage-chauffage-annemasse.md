@@ -11,7 +11,9 @@ slug: depannage-chauffage-annemasse
 firstline: Dépannage chauffage Annemasse, contactez-nous dès maintenant pour un devis gratuit et profitez d'un service de qualité.
 ---
 
+<p class="flex justify-center">
 Dépannage chauffage Annemasse, contactez-nous dès maintenant pour un devis gratuit et profitez d'un service de qualité.
+</p>
 
 Dans un foyer, l’importance d’avoir un chauffage fonctionnel est primordiale pour garantir le bien-être de toute la famille.
 

@@ -27,7 +27,6 @@ const image = imageMap[entry.data.image as keyof typeof imageMap];
 ---
 
 <MainLayout>
-    <!-- <h1>{entry.data.title}</h1> -->
     <a
         href="/articles"
         class="mt-20 inline-block bg-gray-100 p-2 mb-2 hover:bg-indigo-500 hover:text-white"
@@ -56,14 +55,7 @@ const image = imageMap[entry.data.image as keyof typeof imageMap];
             }
         </div>
         <div class="flex justify-center items-center mb-6">
-            <Image
-                src={image}
-                title={entry.data.imgageTitle}
-                alt={entry.data.alt}
-                width={Number(entry.data.width)}
-                height={Number(entry.data.height)}
-                class="h-auto rounded-xl"
-            />
+            <Image src={image} alt={entry.data.alt} class="h-auto rounded-xl" />
         </div>
         <Content />
     </article>
