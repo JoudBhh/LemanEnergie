@@ -3,7 +3,7 @@ title: 'Chaudière non entretenue : Risques mortels et sanctions'
 pubDate: 2024-02-16
 author: Léman
 image: "art4-img1.jpg"
-imageTitle: 'Monoxyde carbone danger mortel chaudiere (2)'
+imageTitle: ''
 alt: 'Monoxyde carbone danger mortel chaudiere (2)'
 width: ''
 height: ''

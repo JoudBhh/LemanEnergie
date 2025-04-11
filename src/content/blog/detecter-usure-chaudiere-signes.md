@@ -5,7 +5,7 @@ author: 'Léman'
 image: "art1-img1.jpg"
 width: ''
 height: ''
-alt: 'signes alerte usure chaudière image'
+alt: 'signes alerte usure chaudière'
 tags: ['Chaudières', 'Entretien']
 slug: detecter-usure-chaudiere-signes
 firstline: 'Votre chaudière montre des signes de faiblesse ? Agissez vite ! Découvrez 6 signes d usure à ne pas ignorer pour éviter une panne soudaine.'

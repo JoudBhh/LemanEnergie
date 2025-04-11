@@ -3,7 +3,7 @@ title: 'Chaudière gaz vs fioul : quelle fréquence d’inspection ?'
 pubDate: 2024-02-26
 author: 'Léman'
 image: "art2-img1.jpg"
-imageTitle: "inspection fréquente chaudière image"
+imageTitle: "inspection fréquente chaudière"
 alt: 'inspection fréquente chaudière image'
 width: ''
 height: ''
