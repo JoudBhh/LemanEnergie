@@ -7,7 +7,7 @@ import art6img1 from '../images/art6-img1.jpg';
 import art7img1 from '../images/art7-img1.jpg';
 import art7img2 from '../images/art7-img2.jpg';
 import image11 from '../images/image11.jpg';
-import image12 from '../images/signes-indiquant-que-vous-avez-besoin-dun-adoucisseur-eau-image.jpg';
+import art12img1 from '../images/art12-img1.jpg';
 
 
 export const imageMap = {
@@ -20,6 +20,6 @@ export const imageMap = {
   'art7-img1.jpg': art7img1,
   'art7-img2.jpg': art7img2,
   'image11.jpg': image11,
-  'image12.jpg': image12,
+  'art12-img1.jpg': art12img1,
 
 };
