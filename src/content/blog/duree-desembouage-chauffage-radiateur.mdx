@@ -12,6 +12,9 @@ firstline: Combien de temps votre chaudière et vos radiateurs nécessite pour u
 ---
 import {Image} from 'astro:assets';
 import image2 from '../../images/art8-img2.jpg'
+import image3 from '../../images/art8-img3.jpg'
+import image4 from '../../images/art8-img4.jpg'
+import image5 from '../../images/art8-img5.jpg'
 
 <div class="bg-gray-100">
     Combien de temps votre chaudière et vos radiateurs nécessite pour un désembouage ? Découvrez la durée, les   détails et les prix associés.
@@ -25,28 +28,26 @@ import image2 from '../../images/art8-img2.jpg'
     Les boues, ces petites particules malicieuses, s’accumulent dans les radiateurs, provoquant des zones froides et réduisant la circulation de l’eau chaude.
     Cela signifie que votre système travaille plus dur, consomme plus d’énergie, et finalement, cela vous coûte plus cher !
 </div>
-<div
-    class="flex flex-col md:flex-row items-start mx-auto gap-5"
->
-        <div class="md:w-1/2">
-        <Image
-            src={image2}
-            alt="desembouage chaudiere gaz"
-            loading="lazy"
-            class="w-full h-auto rounded-xl shadow-md"
-        />
+    <div class="flex flex-col md:flex-row items-start mx-auto gap-5">
+            <div class="md:w-1/2">
+            <Image
+                src={image2}
+                alt="desembouage chaudiere gaz"
+                loading="lazy"
+                class="w-full h-auto rounded-xl shadow-md"
+            />
+        </div>
+        <div class="md:w-1/2 text-left">
+            <h1>Le désembouage de la chaudière gaz</h1>
+            <p>
+                Les chaudières à gaz ne sont pas immunisées contre ces particules embêtantes. Si vous pensiez que c’était le cas, détrompez-vous !
+            </p>
+            <h2>Pourquoi une chaudière à gaz nécessite-t-elle un désembouage ?</h2>
+            <p>
+                Commençons par un peu de science. La chaudière gaz fonctionne en faisant circuler de l’eau chauffée par le gaz à travers des tuyaux pour chauffer votre domicile.
+             </p>
+        </div>
     </div>
-    <div class="md:w-1/2 text-left">
-        <h1>Le désembouage de la chaudière gaz</h1>
-        <p>
-            Les chaudières à gaz ne sont pas immunisées contre ces particules embêtantes. Si vous pensiez que c’était le cas, détrompez-vous !
-        </p>
-        <h2>Pourquoi une chaudière à gaz nécessite-t-elle un désembouage ?</h2>
-        <p>
-            Commençons par un peu de science. La chaudière gaz fonctionne en faisant circuler de l’eau chauffée par le gaz à travers des tuyaux pour chauffer votre domicile.
-         </p>
-    </div>
-</div>
 Cependant, au fil du temps, des impuretés et des minéraux contenus dans l’eau peuvent se déposer et former ce que nous appelons des « boues ».
 Les chaudières ont besoin d’un nettoyage pour éliminer ces déchets.
 Ces boues, malheureusement, ne sont pas inoffensives. Elles peuvent obstruer les tuyaux, réduisant ainsi l’efficacité de la circulation de l’eau. Si l’eau ne circule pas correctement, la chaudière doit travailler plus dur pour chauffer votre maison. Cela se traduit par une consommation de gaz plus importante et une facture plus élevée pour vous.
@@ -61,28 +62,46 @@ Elle consomme plus d’énergie pour produire moins de chaleur. Et comme pour to
 Alors, ne soyez pas avare et offrez-lui ce nettoyage dont elle a tant besoin.
 Contactez-nous, nous effectuons <strong style="color:blue">[le désembouage de vos radiateurs à Annemasse.](https://lemanenergie.fr/desembouage-radiateur/annemasse)</strong>
 
-# Durée et processus du désembouage
-Si vous êtes le genre de personne qui regarde sa montre chaque seconde lorsqu’elle est chez le médecin, alors cette section est faite pour vous !
-Combien de temps prend un désembuage ? Comment cela fonctionne-t-il ?
-## Le temps requis pour un désembouage complet
-Le désembouage n’est pas une tâche que l’on réalise en claquant des doigts. En général, le désembuage peut prendre entre 4 à 8 heures. Toutefois, cela dépend de la taille de votre installation et du niveau d’encrassement.
-C’est un peu comme un bon bain relaxant : parfois, on a juste besoin d’un petit trempage rapide, et d’autres fois, on veut vraiment profiter et prendre son temps.
-Bien sûr, il y a des exceptions. Par exemple, pour une installation particulièrement négligée ou ancienne, le désembouage pourrait nécessiter plus de temps. Dans tous les cas, un bon professionnel vous donnera une estimation avant de commencer.
-## Différentes méthodes de désembouage
-Il existe plusieurs façons de désembuer une chaudière, un peu comme il y a plusieurs façons de peler une pomme.
-Voici plusieurs méthodes avec ses avantages et ses inconvénients :
-
-**Méthode chimique :** Ici, des produits chimiques sont ajoutés à l’eau du système de chauffage pour dissoudre les boues. C’est efficace, mais pensez à bien rincer le système pour éviter toute corrosion à long terme.
-
-**Méthode mécanique :** Cette technique utilise une machine qui crée un flux d’eau puissant pour déloger et éliminer les boues. C’est comme un aspirateur pour votre chaudière !
-
-Méthode magnétique : Un appareil est installé pour capter et retenir les particules métalliques présentes dans les boues. C’est un peu comme un aimant pour les saletés de votre système de chauffage.
-
-**Méthode hydraulique :** Elle utilise la pression de l’eau pour éliminer les boues. Imaginez une grande vague qui emporte toutes les impuretés sur son passage.
-
-**Méthode manuelle :** Le bon vieux nettoyage à la main ! Il peut être nécessaire pour les installations particulièrement encrassées ou si d’autres méthodes n’ont pas fonctionné.
-
-Rappelez-vous toujours de choisir la méthode adaptée à votre installation et à la nature des boues. Il est parfois judicieux de combiner plusieurs méthodes pour un résultat optimal.
+<div class="bg-gray-100">
+    <div class="flex flex-col md:flex-row items-start mx-auto gap-5">
+        <div class="md:w-1/2 text-left">
+            <h1>Durée et processus du désembouage</h1>
+            <p>
+                Si vous êtes le genre de personne qui regarde sa montre chaque seconde lorsqu’elle est chez le médecin, alors cette section est faite pour vous !
+                Combien de temps prend un désembuage ? Comment cela fonctionne-t-il ?
+            </p>
+            <h2>Le temps requis pour un désembouage complet</h2>
+            <p>
+                Le désembouage n’est pas une tâche que l’on réalise en claquant des doigts. En général, le désembuage peut prendre entre 4 à 8 heures. Toutefois, cela dépend de la taille de votre installation et du niveau d’encrassement.
+            </p>
+        </div>
+        <div class="md:w-1/2">
+            <Image
+                src={image3}
+                alt="entretien-et-effet-du-desembouage"
+                loading="lazy"
+                class="w-full h-auto rounded-xl shadow-md"
+            />
+        </div>
+    </div>
+    C’est un peu comme un bon bain relaxant : parfois, on a juste besoin d’un petit trempage rapide, et d’autres fois, on veut vraiment profiter et prendre son temps.
+    Bien sûr, il y a des exceptions. Par exemple, pour une installation particulièrement négligée ou ancienne, le désembouage pourrait nécessiter plus de temps. Dans tous les cas, un bon professionnel vous donnera une estimation avant de commencer. 
+    ## Différentes méthodes de désembouage
+    Il existe plusieurs façons de désembuer une chaudière, un peu comme il y a plusieurs façons de peler une pomme.
+    Voici plusieurs méthodes avec ses avantages et ses inconvénients :
+    
+    **Méthode chimique :** Ici, des produits chimiques sont ajoutés à l’eau du système de chauffage pour dissoudre les boues. C’est efficace, mais pensez à bien rincer le système pour éviter toute corrosion à long terme.
+    
+    **Méthode mécanique :** Cette technique utilise une machine qui crée un flux d’eau puissant pour déloger et  éliminer les boues. C’est comme un aspirateur pour votre chaudière !
+    
+    Méthode magnétique : Un appareil est installé pour capter et retenir les particules métalliques présentes dans les boues. C’est un peu comme un aimant pour les saletés de votre système de chauffage.
+    
+    **Méthode hydraulique :** Elle utilise la pression de l’eau pour éliminer les boues. Imaginez une grande vague qui emporte toutes les impuretés sur son passage.
+    
+    **Méthode manuelle :** Le bon vieux nettoyage à la main ! Il peut être nécessaire pour les installations     particulièrement encrassées ou si d’autres méthodes n’ont pas fonctionné.
+    
+    Rappelez-vous toujours de choisir la méthode adaptée à votre installation et à la nature des boues. Il est   parfois judicieux de combiner plusieurs méthodes pour un résultat optimal.
+</div>
 #  Prix du désembouage
 Le nerf de la guerre ! Tout le monde veut une chaudière propre mais aussi efficace, mais à quel coût ?
 
@@ -105,59 +124,68 @@ Voyons cela ensemble.
 ## Estimations générales du marché
 
 **Le coût moyen du désembouage en France est d’environ 300 à 500 euros pour une maison standard.** Cependant, pour les grandes installations ou les systèmes particulièrement encrassés, cela peut monter jusqu’à 800 euros ou plus.
-
 Il est toujours recommandé de **demander plusieurs devis** afin de comparer et de trouver le meilleur rapport qualité-prix. Et rappelez-vous, comme dans la quête du croissant parfait, parfois il vaut la peine de payer un peu plus pour obtenir la meilleure qualité !
+<div class="flex justify-center items-center">
+  <Image
+    src={image4}
+    alt="desembouage-chauffage-central"
+    loading="lazy"
+    class="max-w-full h-auto rounded-xl shadow-md"
+  />
+</div>
 
-# Optimisation de l’installation chauffante après désembouage
- 
+<div class="bg-gray-100">
+    # Optimisation de l’installation chauffante après désembouage
+    Après avoir déboursé vos précieux euros pour un désembouage, vous pourriez vous demander :
+    « Et maintenant, que dois-je attendre en retour, à part une chaudière propre ?« 
+    
+    ## Prolongation de la durée de vie
+    **L’un des plus grands avantages du désembouage est la prolongation de la durée de vie de votre installation.**
+    Pensez-y un instant. Vous ne porteriez pas continuellement des chaussures remplies de sable ? Ce serait     inconfortable et vos chaussures s’useraient prématurément. De même, **une chaudière encrassée travaille plus dur, consomme plus d’énergie, et s’abîme plus rapidement.**
+    
+    **Un désembouage effectué régulièrement peut :**
+    
+    **Réduire l’usure :** Les particules et les boues peuvent causer des dommages matériels, comme des rayures à l’intérieur des canalisations, de la chaudière et de l’érosion. En les éliminant, on réduit la friction et donc l’usure.
+    
+    **Prévenir les blocages :** Les boues peuvent obstruer les tuyaux et les composants de la chaudière, menaçant leur fonctionnement. Une fois le système désemboué, ces risques sont considérablement réduits.
+    
+    **Eviter la corrosion :** Les boues peuvent aussi accélérer la corrosion des pièces métalliques. Le désembouage élimine ces substances corrosives, garantissant ainsi une durée de vie plus longue.
+    
+    Ainsi, un désembouage peut transformer votre chaudière fatiguée et essoufflée en une machine énergique, prête à vous servir pendant de nombreuses années supplémentaires.
+    
+    ## Amélioration de l’efficacité du système chauffage central
+    Si prolonger la durée de vie de votre chaudière ne vous convainc pas encore, peut-être que l’amélioration de l’efficacité le fera. Vous souvenez-vous de cette fois où vous avez essayé de courir après avoir mangé un énorme repas ? C’était difficile ? Eh bien, une chaudière avec des boues, c’est un peu pareil.
+    
+    **Chauffage plus rapide :** Un système propre permet une circulation plus fluide du liquide caloporteur. Le  résultat ? Vos pièces se réchauffent plus vite. Finies les longues attentes dans le froid !
+    
+    Economies d’énergie : Un système de chauffage central optimisé consomme moins d’énergie pour atteindre la    température souhaitée. C’est un peu comme si votre voiture consommait moins d’essence parce que vous avez vidé le coffre de tout ce poids inutile.
+    
+    **Confort accru :** Une meilleure efficacité signifie aussi un confort plus uniforme. Moins de zones froides et de variations de température.
+    
+    **Réduction des coûts de maintenance :** Un système plus efficace est moins susceptible de subir des pannes, ce qui signifie moins d’appels d’urgence au chauffagiste (et moins de factures salées).
+    
+    Alors, après un bon désembouage, attendez-vous à ce que votre système de chauffage central fonctionne comme une horloge suisse, avec une précision et une efficacité inégalées. Et qui sait, avec toutes ces économies, vous pourriez même vous offrir ces vacances au ski que vous envisagez depuis si longtemps !
+</div>
 
-Après avoir déboursé vos précieux euros pour un désembouage, vous pourriez vous demander :
-
-« Et maintenant, que dois-je attendre en retour, à part une chaudière propre ?« 
-
- 
-
-## Prolongation de la durée de vie
-
-**L’un des plus grands avantages du désembouage est la prolongation de la durée de vie de votre installation.**
-
-Pensez-y un instant. Vous ne porteriez pas continuellement des chaussures remplies de sable ? Ce serait inconfortable et vos chaussures s’useraient prématurément. De même, **une chaudière encrassée travaille plus dur, consomme plus d’énergie, et s’abîme plus rapidement.**
-
-**Un désembouage effectué régulièrement peut :**
-
-**Réduire l’usure :** Les particules et les boues peuvent causer des dommages matériels, comme des rayures à l’intérieur des canalisations, de la chaudière et de l’érosion. En les éliminant, on réduit la friction et donc l’usure.
-
-**Prévenir les blocages :** Les boues peuvent obstruer les tuyaux et les composants de la chaudière, menaçant leur fonctionnement. Une fois le système désemboué, ces risques sont considérablement réduits.
-
-**Eviter la corrosion :** Les boues peuvent aussi accélérer la corrosion des pièces métalliques. Le désembouage élimine ces substances corrosives, garantissant ainsi une durée de vie plus longue.
-
-Ainsi, un désembouage peut transformer votre chaudière fatiguée et essoufflée en une machine énergique, prête à vous servir pendant de nombreuses années supplémentaires.
-
- 
-
-## Amélioration de l’efficacité du système chauffage central
-
-Si prolonger la durée de vie de votre chaudière ne vous convainc pas encore, peut-être que l’amélioration de l’efficacité le fera. Vous souvenez-vous de cette fois où vous avez essayé de courir après avoir mangé un énorme repas ? C’était difficile ? Eh bien, une chaudière avec des boues, c’est un peu pareil.
-
-**Chauffage plus rapide :** Un système propre permet une circulation plus fluide du liquide caloporteur. Le résultat ? Vos pièces se réchauffent plus vite. Finies les longues attentes dans le froid !
-
-Economies d’énergie : Un système de chauffage central optimisé consomme moins d’énergie pour atteindre la température souhaitée. C’est un peu comme si votre voiture consommait moins d’essence parce que vous avez vidé le coffre de tout ce poids inutile.
-
-**Confort accru :** Une meilleure efficacité signifie aussi un confort plus uniforme. Moins de zones froides et de variations de température.
-
-**Réduction des coûts de maintenance :** Un système plus efficace est moins susceptible de subir des pannes, ce qui signifie moins d’appels d’urgence au chauffagiste (et moins de factures salées).
-
-Alors, après un bon désembouage, attendez-vous à ce que votre système de chauffage central fonctionne comme une horloge suisse, avec une précision et une efficacité inégalées. Et qui sait, avec toutes ces économies, vous pourriez même vous offrir ces vacances au ski que vous envisagez depuis si longtemps !
-
-# Conseils pour entretenir votre chaudière et éviter le désembouage fréquent
-
-
-Si seulement nos chaudières pouvaient s’autonettoyer comme certains fours modernes, la vie serait si simple !
-
-Mais en attendant cette miraculeuse invention, laissons-nous vous donner quelques astuces pour garder votre système de chauffage en pleine forme, éviter ces vilaines boues et, avec un peu de chance, économiser quelques billets verts …
-
-## Entretien régulier du circuit chauffage
-
+    <div class="flex flex-col md:flex-row items-start mx-auto gap-5">
+        <div class="md:w-1/2 text-left">
+            <h1>Conseils pour entretenir votre chaudière et éviter le désembouage fréquent</h1>
+            <p>
+                Si seulement nos chaudières pouvaient s’autonettoyer comme certains fours modernes, la vie serait si simple !
+                Mais en attendant cette miraculeuse invention, laissons-nous vous donner quelques astuces pour garder votre système de chauffage en pleine forme, éviter ces vilaines boues et, avec un peu de chance, économiser quelques billets verts …
+            </p>
+            <h2>Entretien régulier du circuit chauffage</h2>
+        </div>
+        <div class="md:w-1/2">
+            <Image
+                src={image5}
+                alt="chauffage-efficiente-apres-desembouage"
+                loading="lazy"
+                class="w-full h-auto rounded-xl shadow-md"
+            />
+        </div>
+    </div>
+Le désembouage n’est pas une tâche que l’on réalise en claquant des doigts. En général, le désembuage peut prendre entre 4 à 8 heures. Toutefois, cela dépend de la taille de votre installation et du niveau d’encrassement.
 Comme pour toute machine, une chaudière nécessite de l’attention. Si vous ignorez votre chat, il vous le fera savoir. Votre chaudière, quant à elle, pourrait vous le faire payer en tombant en panne en plein hiver.
 
 **Vérification annuelle :** Faites appel à un professionnel pour vérifier votre système une fois par an. Il pourra détecter les problèmes avant qu’ils ne deviennent de gros soucis.
