@@ -25,7 +25,7 @@ const image = imageMap[article.data.image as keyof typeof imageMap];
                 alt={article.data.alt}
                 width={Number(article.data.width)}
                 width={Number(article.data.width)}
-                loading={index < 5 ? 'eager' : 'lazy'}
+                loading={index < 5 ? 'lazy' : 'lazy'}
                 class="w-full h-48 object-cover hover:opacity-75 transition duration-300 ease-in-out"
             />
         </a>

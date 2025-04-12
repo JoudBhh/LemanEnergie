@@ -19,8 +19,8 @@ const title = 'All Articles';
         <h1 class="text-2xl pb-3">{title}</h1>
         <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {
-                allBlogArticles.map((article) => (
-                    <ArticleCard article={article} />
+                allBlogArticles.map((article, index) => (
+                    <ArticleCard article={article} index={index} />
                 ))
             }
         </div>

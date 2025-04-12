@@ -1,6 +1,7 @@
 ---
 import ServiceCard from '../components/ServiceCard.astro';
 import Mainlayout from '../layouts/MainLayout.astro';
+import { SITE_CONFIG } from '../config/infosite';
 import { Image } from 'astro:assets';
 import homeImage from '../images/home-img.jpg';
 import image2 from '../images/recherche-de-fuite-annemasse-16-Petite.jpg';
@@ -123,7 +124,7 @@ import image8 from '../images/recherche-de-fuite-annemasse-3.jpg';
 			<div class="w-full sm:w-auto">
 				<a
 					role="button"
-					href="https://docs.google.com/forms/d/e/1FAIpQLSfNEIjv5_YpiusWBZmifkxO5fvBtLYWtz-V-UO1xf6KutuL0Q/viewform?usp=dialog"
+					href=`${SITE_CONFIG.emailUrl}`
 					class="block text-center text-white bg-blue-700 px-8 py-3 rounded-md hover:bg-blue-500 w-full"
 				>
 					DEVIS GRATUIT

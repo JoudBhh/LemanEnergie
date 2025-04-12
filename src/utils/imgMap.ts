@@ -12,6 +12,8 @@ import art11img1 from '../images/art11-img1.jpg';
 import art12img1 from '../images/art12-img1.jpg';
 import art13img1 from '../images/art13-img1.jpg';
 import art14img1 from '../images/art14-img1.jpg';
+import art15img1 from '../images/art15-img1.jpg';
+
 
 
 export const imageMap = {
@@ -29,4 +31,5 @@ export const imageMap = {
   'art12-img1.jpg': art12img1,
   'art13-img1.jpg': art13img1,
   'art14-img1.jpg': art14img1,
+  'art15-img1.jpg': art15img1,
 };
