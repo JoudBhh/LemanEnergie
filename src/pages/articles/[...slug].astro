@@ -55,7 +55,14 @@ const image = imageMap[entry.data.image as keyof typeof imageMap];
             }
         </div>
         <div class="flex justify-center items-center mb-6">
-            <Image src={image} alt={entry.data.alt} class="h-auto rounded-xl" />
+            <Image
+                src={image}
+                alt={entry.data.alt}
+                width={Number(entry.data.width)}
+                width={Number(entry.data.width)}
+                loading="eager"
+                class="h-auto rounded-xl"
+            />
         </div>
         <Content />
     </article>
