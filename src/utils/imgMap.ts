@@ -13,6 +13,12 @@ import art12img1 from '../images/art12-img1.jpg';
 import art13img1 from '../images/art13-img1.jpg';
 import art14img1 from '../images/art14-img1.jpg';
 import art15img1 from '../images/art15-img1.jpg';
+import art16img1 from '../images/art16-img1.jpeg';
+import art17img1 from '../images/art17-img1.jpeg';
+import art18img1 from '../images/art18-img1.jpg';
+import art19img1 from '../images/art19-img1.jpg';
+import art20img1 from '../images/art20-img1.jpg';
+import art21img1 from '../images/art21-img1.jpg';
 import art22img1 from '../images/art22-img1.jpg';
 
 
@@ -33,5 +39,11 @@ export const imageMap = {
   'art13-img1.jpg': art13img1,
   'art14-img1.jpg': art14img1,
   'art15-img1.jpg': art15img1,
+  'art16-img1.jpeg': art16img1,
+  'art17-img1.jpeg': art17img1,
+  'art18-img1.jpg': art18img1,
+  'art19-img1.jpg': art19img1,
+  'art20-img1.jpg': art20img1,
+  'art21-img1.jpg': art21img1,
   'art22-img1.jpg': art22img1,
 };
