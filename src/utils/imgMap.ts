@@ -25,6 +25,8 @@ import art24img1 from '../images/art24-img1.jpg';
 import art25img1 from '../images/art25-img1.jpg';
 import art26img1 from '../images/art26-img1.jpg';
 import art27img1 from '../images/art27-img1.jpeg';
+import art28img1 from '../images/art28-img1.jpg';
+import art29img1 from '../images/art29-img1.jpg';
 
 
 
@@ -56,4 +58,6 @@ export const imageMap = {
   'art25-img1.jpg': art25img1,
   'art26-img1.jpg': art26img1,
   'art27-img1.jpeg': art27img1,
+  'art28-img1.jpg': art28img1,
+  'art29-img1.jpg': art29img1,
 };
