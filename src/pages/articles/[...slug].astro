@@ -88,7 +88,7 @@ const image = imageMap[entry.data.image as keyof typeof imageMap];
     }
 </style> -->
 <!-- sizes="(max-width: 768px) 100vw, 600px" -->
-<style is:global>
+<!-- <style is:global>
     body {
         font-family: 'Inter', sans-serif;
         line-height: 1.7;
@@ -121,5 +121,79 @@ const image = imageMap[entry.data.image as keyof typeof imageMap];
         font-size: 1.2rem;
         color: #2563eb;
         font-weight: 500;
+    }
+</style> -->
+
+<style is:global>
+    body {
+        font-family: 'Inter', sans-serif;
+        line-height: 1.7;
+        color: #1a1a1a;
+    }
+
+    p {
+        margin: 0.75rem 0;
+        font-size: 1.05rem;
+        color: #333;
+    }
+
+    h1 {
+        margin: 2rem 0 1rem;
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: #162c62;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    h2 {
+        margin: 1.5rem 0 0.5rem;
+        font-size: 1.5rem;
+        color: #1e3a8a;
+        font-weight: 600;
+    }
+
+    h3 {
+        margin: 1rem 0 0.5rem;
+        font-size: 1.2rem;
+        color: #2563eb;
+        font-weight: 500;
+    }
+
+    /* Small screens (mobile) */
+    @media (max-width: 640px) {
+        h1 {
+            font-size: 1.5rem;
+        }
+        h2 {
+            font-size: 1.25rem;
+        }
+        h3 {
+            font-size: 1rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    /* Medium screens (tablet) */
+    @media (min-width: 641px) and (max-width: 1024px) {
+        h1 {
+            font-size: 1.75rem;
+        }
+        h2 {
+            font-size: 1.4rem;
+        }
+        h3 {
+            font-size: 1.1rem;
+        }
+        p {
+            font-size: 1.03rem;
+        }
+    }
+
+    /* Large screens (desktop) */
+    @media (min-width: 1025px) {
+        /* You can override or keep the default styles */
     }
 </style>
