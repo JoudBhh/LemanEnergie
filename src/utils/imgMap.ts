@@ -20,6 +20,11 @@ import art19img1 from '../images/art19-img1.jpg';
 import art20img1 from '../images/art20-img1.jpg';
 import art21img1 from '../images/art21-img1.jpg';
 import art22img1 from '../images/art22-img1.jpg';
+import art23img1 from '../images/art23-img1.jpg';
+import art24img1 from '../images/art24-img1.jpg';
+import art25img1 from '../images/art25-img1.jpg';
+import art26img1 from '../images/art26-img1.jpg';
+import art27img1 from '../images/art27-img1.jpeg';
 
 
 
@@ -46,4 +51,9 @@ export const imageMap = {
   'art20-img1.jpg': art20img1,
   'art21-img1.jpg': art21img1,
   'art22-img1.jpg': art22img1,
+  'art23-img1.jpg': art23img1,
+  'art24-img1.jpg': art24img1,
+  'art25-img1.jpg': art25img1,
+  'art26-img1.jpg': art26img1,
+  'art27-img1.jpeg': art27img1,
 };
