@@ -2,6 +2,7 @@
 import { Image } from 'astro:assets';
 import footerImg from '../images/footerimg.jpg';
 import logo from '../images/logo-lemanenergie-plombier-annemasse.png';
+import { SITE_CONFIG } from '../config/infosite';
 ---
 
 <footer id="contact">
@@ -21,7 +22,8 @@ import logo from '../images/logo-lemanenergie-plombier-annemasse.png';
                     <span>📞</span>
                     <span
                         class="text-white-400 font-semibold tracking-wide underline underline-offset-4"
-                        >04 58 10 51 99</span
+                        ><a href={`tel:${SITE_CONFIG.phone}`}>04 58 10 51 99</a
+                        ></span
                     >
                 </div>
                 <!-- <div class="flex items-center gap-2">
@@ -38,7 +40,7 @@ import logo from '../images/logo-lemanenergie-plombier-annemasse.png';
             <button
                 class="bg-green-400 hover:bg-red-500 text-black font-semibold px-6 py-3 rounded-md shadow-md transition-all duration-300 flex items-center justify-center gap-2"
             >
-                📞 Demande de rappel
+                <a href={SITE_CONFIG.emailUrl}>📞 Demande de rappel</a>
             </button>
         </div>
     </div>
