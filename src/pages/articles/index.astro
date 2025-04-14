@@ -4,6 +4,8 @@ import ArticleCard from '../../components/ArticleCard.astro';
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import HeadPage from '../../components/HeadPage.astro';
+import { Image } from 'astro:assets';
+import image1 from '../../images/recherche-de-fuite-annemasse-12-Petite.jpg';
 
 const allBlogArticles: CollectionEntry<'blog'>[] = (
     await getCollection('blog')
@@ -17,6 +19,80 @@ const title = 'All Articles';
 
 <MainLayout>
     <HeadPage />
+    <section
+        class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-8 mt-30"
+    >
+        <!-- Left Title Section -->
+        <div class="w-full md:w-1/2 text-center md:text-left">
+            <p
+                class="text-sm uppercase tracking-widest text-blue-900 font-semibold mb-2"
+            >
+                - Blog Et Actualités du site
+            </p>
+            <h1
+                class="text-3xl md:text-5xl font-bold text-[#162c62] leading-tight"
+            >
+                Astuces, nouveautés, informations des services de plomberie à
+                Annemasse
+            </h1>
+        </div>
+
+        <!-- Right Image Section -->
+        <div class="w-full md:w-1/2 flex justify-center">
+            <Image
+                src={image1}
+                alt="Caméra thermique"
+                class="rounded-2xl shadow-xl w-full max-w-sm md:max-w-md"
+            />
+        </div>
+    </section>
+
+    <!-- Description Box -->
+    <section class="max-w-6xl mx-auto mt-10">
+        <div
+            class="bg-white rounded-2xl shadow-lg p-6 md:p-8 text-base md:text-lg space-y-4"
+        >
+            <p>
+                Bienvenue sur notre page d’actualités de service de plomberie
+                sur Annemasse, la principale source d’informations et
+                d’actualités sur la plomberie à Annemasse. Vous trouverez ici
+                les dernières nouvelles et mises à jour liées à la plomberie et
+                aux dernières tendances du secteur. Nos experts fournissent des
+                informations fiables et précises pour vous tenir au courant.
+            </p>
+            <p>
+                Nous couvrons un large éventail de sujets liés à la plomberie, y
+                compris l’installation, la réparation et l’entretien de la
+                plomberie, et plus encore. Nos experts sont au fait des
+                dernières technologies et des meilleures pratiques dans le
+                secteur de la plomberie. Nous fournissons des conseils sur les
+                outils et les matériaux, ainsi que des astuces sur la façon de
+                prendre soin de votre système de plomberie. Notre blog présente
+                également les nouvelles et les mises à jour du secteur, ainsi
+                que des conseils et des astuces utiles.
+            </p>
+            <p>
+                Nous fournissons également des ressources pour les bricoleurs et
+                les amateurs de réparations domestiques. Notre blog est rempli
+                d’astuces et de conseils utiles pour s’attaquer aux projets de
+                plomberie à Annemasse. Que vous soyez un débutant ou un
+                professionnel chevronné, notre blog est une excellente ressource
+                pour vous aider à accomplir votre travail.
+            </p>
+            <p>
+                Nous sommes fiers de servir les habitants d’Annemasse, en
+                France, avec les meilleures informations et actualités de
+                plomberie. Nous sommes passionnés par le fait de nous assurer
+                que nos clients ont accès aux dernières informations et
+                ressources dont ils ont besoin pour prendre les meilleures
+                décisions liées à leurs projets de plomberie. Visitez-nous
+                aujourd’hui et obtenez les informations et les ressources les
+                plus récentes pour vous aider dans tous vos besoins en matière
+                de plomberie.
+            </p>
+        </div>
+    </section>
+
     <div class="mt-20">
         <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {
