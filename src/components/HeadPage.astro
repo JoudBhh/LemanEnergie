@@ -1,0 +1,127 @@
+---
+import { Image } from 'astro:assets';
+import homeImage from '../images/home-img.jpg'; // Replace with the correct path to your image
+import image1 from '../images/art11-img3.jpg';
+import { SITE_CONFIG } from '../config/infosite';
+---
+
+<section>
+    <div class="container mx-auto px-4 mt-25">
+        <div
+            class="flex flex-col sm:flex-row justify-around items-center gap-6"
+        >
+            <!-- Text Content -->
+            <div class="w-full sm:w-1/2 text-center sm:text-left">
+                <h1
+                    class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-blue-900 mt-2"
+                >
+                    Plombier Annemasse
+                </h1>
+                <h2
+                    class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-blue-400 mt-2"
+                >
+                    Votre artisan Plombier chauffagiste en Haute-Savoie
+                </h2>
+                <h2 class="text-2xl text-blue-300">
+                    Intervention 24/24h 7/7 sans Rendez Vous.
+                </h2>
+                <div class="mt-4">
+                    <ul class="max-w-md space-y-1 list-inside">
+                        <li class="flex items-center">
+                            <svg
+                                class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 shrink-0"
+                                aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                viewBox="0 0 20 20"
+                            >
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                                ></path>
+                            </svg>
+                            AGRÉE ASSURANCES
+                        </li>
+                        <li class="flex items-center">
+                            <svg
+                                class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 shrink-0"
+                                aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                viewBox="0 0 20 20"
+                            >
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                                ></path>
+                            </svg>
+                            DEVIS GRATUIT
+                        </li>
+                        <li class="flex items-center">
+                            <svg
+                                class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 shrink-0"
+                                aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                viewBox="0 0 20 20"
+                            >
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                                ></path>
+                            </svg>
+                            QUALITÉ / PRIX GARANTIE
+                        </li>
+                        <li class="flex items-center">
+                            <svg
+                                class="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 shrink-0"
+                                aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                viewBox="0 0 20 20"
+                            >
+                                <path
+                                    d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"
+                                ></path>
+                            </svg>
+                            PERSONNEL QUALIFIÉ
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Image -->
+            <div class="w-full sm:w-1/2 flex justify-center">
+                <Image
+                    src={homeImage}
+                    alt="Article Image"
+                    width={1920}
+                    height={825}
+                    class="w-full sm:w-[825px] h-auto object-cover hover:opacity-75 transition duration-300 ease-in-out"
+                />
+            </div>
+        </div>
+    </div>
+    <div class="flex justify-center mt-5 sm:w-full px-4">
+        <div
+            class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-5 w-full px-4 sm:px-0"
+        >
+            <div class="w-full sm:w-auto flex items-center gap-2">
+                <!-- <span>📞</span> -->
+                <a
+                    role="button"
+                    href=`tel:${SITE_CONFIG.phone}`
+                    class="text-center text-white bg-blue-700 px-8 py-3 rounded-md hover:bg-blue-500 w-full"
+                >
+                    APPELEZ NOUS
+                </a>
+            </div>
+            <div class="w-full sm:w-auto">
+                <a
+                    role="button"
+                    href=`${SITE_CONFIG.emailUrl}`
+                    class="block text-center text-white bg-blue-700 px-8 py-3 rounded-md hover:bg-blue-500 w-full"
+                >
+                    DEVIS GRATUIT
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
