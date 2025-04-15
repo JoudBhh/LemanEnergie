@@ -1,5 +1,9 @@
 ---
-
+import { Image } from 'astro:assets';
+import fabianimg from '../images/review-fabian-img.jpg';
+import karlimg from '../images/review-karl-img.jpg';
+import karmoudiimg from '../images/review-karmoudi-img.jpg';
+import sabrinaimg from '../images/review-sabrina-img.jpg';
 ---
 
 <section class="py-24 relative">
@@ -34,16 +38,17 @@
             <div class="grid grid-cols-12 max-w-sm sm:max-w-full mx-auto">
                 <div class="col-span-12 lg:col-span-10">
                     <div class="sm:flex gap-6">
-                        <img
-                            src="https://pagedone.io/asset/uploads/1704364459.png"
-                            alt="Robert image"
+                        <Image
+                            src={karlimg}
+                            alt="Karl"
                             class="w-32 h-32 rounded-full object-cover"
                         />
                         <div class="text">
                             <p
-                                class="font-medium text-lg leading-8 text-gray-900 mb-2"
+                                class="font-medium text-lg leading-8 text-gray-900 mb-0"
                             >
-                                Robert Karmazov
+                                Karl ***
+                                <p class="text-sm">Avis Google</p>
                             </p>
                             <div
                                 class="flex lg:hidden items-center gap-2 lg:justify-between w-full mb-5"
@@ -157,13 +162,15 @@
                             <p
                                 class="font-normal text-base leading-7 text-gray-400 mb-4 lg:pr-8"
                             >
-                                One of the standout features of Pagedone is its
-                                intuitive and user-friendly interface.
-                                Navigating through the system feels natural, and
-                                the layout makes it easy to locate and utilize
-                                various design elements. This is particularly
-                                beneficial for designers looking to streamline
-                                their workflow.
+                                Lorsque vous avez un cas d’urgence comme moi
+                                avec un chauffe eau qui fuit et qui a fait
+                                disjoncter l’électricité, vous pouvez appeler
+                                cet entreprise. La réactivité est immédiate au
+                                téléphone avec un envoi des photos du descriptif
+                                et de l’élément à changer. Le technicien a
+                                remplacé le cumulus dans les règles le jour même
+                                ! Merci pour cette réactivité et cette
+                                efficacité.
                             </p>
                             <div class="flex items-center justify-between">
                                 <!-- <div
@@ -193,7 +200,7 @@
                                 <p
                                     class="lg:hidden font-medium text-sm leading-7 text-gray-400 lg:text-center whitespace-nowrap"
                                 >
-                                    Nov 01, 2023
+                                    Nov 12, 2023
                                 </p>
                             </div>
                         </div>
@@ -304,7 +311,7 @@
                     <p
                         class="font-medium text-lg leading-8 text-gray-400 lg:text-center whitespace-nowrap"
                     >
-                        Nov 01, 2023
+                        Nov 07, 2023
                     </p>
                 </div>
             </div>
@@ -312,16 +319,17 @@
             <div class="grid grid-cols-12 max-w-sm sm:max-w-full mx-auto">
                 <div class="col-span-12 lg:col-span-10">
                     <div class="sm:flex gap-6">
-                        <img
-                            src="https://pagedone.io/asset/uploads/1704364533.png"
-                            alt="Robert image"
+                        <Image
+                            src={karmoudiimg}
+                            alt="El Karmoudi"
                             class="w-32 h-32 rounded-full object-cover"
                         />
                         <div class="text">
                             <p
-                                class="font-medium text-lg leading-8 text-gray-900 mb-2"
+                                class="font-medium text-lg leading-8 text-gray-900 mb-0"
                             >
-                                Robert Karmazov
+                                EL KARMOUDI ***
+                                <p class="text-sm">Avis Google</p>
                             </p>
                             <div
                                 class="flex lg:hidden items-center gap-2 lg:justify-between w-full mb-5"
@@ -435,12 +443,12 @@
                             <p
                                 class="font-normal text-base leading-7 text-gray-400 mb-4 lg:pr-8"
                             >
-                                Pagedone excels in addressing the demand for
-                                responsive design. Its features ensure that
-                                designs not only look great on desktop but also
-                                seamlessly adapt to various screen sizes,
-                                providing a consistent user experience across
-                                devices.
+                                Entreprise qui est intervenue suite à une fuite
+                                au niveau du robinet d’eau de la salle de bain.
+                                Personnes très souriante et très professionnel,
+                                on m’a annoncé les prix avant d’intervenir et on
+                                m’a expliqué le travail qui devait être fait
+                                pour arrêter la fuite et la solutionner.
                             </p>
                             <div class="flex items-center justify-between">
                                 <!-- <div class="flex items-center gap-2">
@@ -468,7 +476,7 @@
                                 <p
                                     class="lg:hidden font-medium text-sm leading-7 text-gray-400 lg:text-center whitespace-nowrap"
                                 >
-                                    Nov 01, 2023
+                                    Fev 09, 2024
                                 </p>
                             </div>
                         </div>
@@ -579,7 +587,7 @@
                     <p
                         class="font-medium text-lg leading-8 text-gray-400 lg:text-center whitespace-nowrap"
                     >
-                        Nov 01, 2023
+                        Fev 09, 2024
                     </p>
                 </div>
             </div>
@@ -587,16 +595,17 @@
             <div class="grid grid-cols-12 max-w-sm sm:max-w-full mx-auto">
                 <div class="col-span-12 lg:col-span-10">
                     <div class="sm:flex gap-6">
-                        <img
-                            src="https://pagedone.io/asset/uploads/1704364549.png"
-                            alt="Robert image"
+                        <Image
+                            src={fabianimg}
+                            alt="Fabian"
                             class="w-32 h-32 rounded-full object-cover"
                         />
                         <div class="text">
                             <p
-                                class="font-medium text-lg leading-8 text-gray-900 mb-2"
+                                class="font-medium text-lg leading-8 text-gray-900 mb-0"
                             >
-                                Robert Karmazov
+                                Fabien ***
+                                <p class="text-sm">Avis Google</p>
                             </p>
                             <div
                                 class="flex lg:hidden items-center gap-2 lg:justify-between w-full mb-5"
@@ -710,12 +719,14 @@
                             <p
                                 class="font-normal text-base leading-7 text-gray-400 mb-4 lg:pr-8"
                             >
-                                Collaboration is made seamless with Pagedone's
-                                collaboration tools. Whether working within a
-                                team or seeking client feedback, the system
-                                facilitates effective communication and
-                                real-time collaboration, enhancing the overall
-                                design process.
+                                Merci à Leman Énergie pour la détection de fuite
+                                effectué dans notre appartement. Accueil
+                                téléphonique professionnel et courtois! Le
+                                plombier est venu de suite pour la détection de
+                                fuite. Problème solutionné et travail bien fait.
+                                Je conseil vraiment. Merci à lui pour ça
+                                gentillesse et son professionnalisme. A bientôt
+                                pour un autre chantier! Mr Michel
                             </p>
                             <div class="flex items-center justify-between">
                                 <!-- <div class="flex items-center gap-2">
@@ -743,7 +754,7 @@
                                 <p
                                     class="lg:hidden font-medium text-sm leading-7 text-gray-400 lg:text-center whitespace-nowrap"
                                 >
-                                    Nov 01, 2023
+                                    Sep 18, 2024
                                 </p>
                             </div>
                         </div>
@@ -854,7 +865,7 @@
                     <p
                         class="font-medium text-lg leading-8 text-gray-400 lg:text-center whitespace-nowrap"
                     >
-                        Nov 01, 2023
+                        Sep 18, 2024
                     </p>
                 </div>
             </div>
@@ -862,16 +873,17 @@
             <div class="grid grid-cols-12 max-w-sm sm:max-w-full mx-auto">
                 <div class="col-span-12 lg:col-span-10">
                     <div class="sm:flex gap-6">
-                        <img
-                            src="https://pagedone.io/asset/uploads/1704364560.png"
-                            alt="Robert image"
+                        <Image
+                            src={sabrinaimg}
+                            alt="Sabrina"
                             class="w-32 h-32 rounded-full object-cover"
                         />
                         <div class="text">
                             <p
-                                class="font-medium text-lg leading-8 text-gray-900 mb-2"
+                                class="font-medium text-lg leading-8 text-gray-900 mb-0"
                             >
-                                Robert Karmazov
+                                Sabrina ***
+                                <p class="text-sm">Avis Google</p>
                             </p>
                             <div
                                 class="flex lg:hidden items-center gap-2 lg:justify-between w-full mb-5"
@@ -985,13 +997,13 @@
                             <p
                                 class="font-normal text-base leading-7 text-gray-400 mb-4 lg:pr-8"
                             >
-                                Pagedone doesn't disappoint when it comes to the
-                                variety and richness of its design components.
-                                From pre-built templates to customizable
-                                elements, the system caters to both beginners
-                                and seasoned designers. The extensive library
-                                ensures a diverse range of options to bring
-                                creative visions to life.
+                                Intervention rapide après un premier appel
+                                auprès d’une autre entreprise qui ne m’a plus
+                                donné de nouvelles m’ayant néanmoins promis une
+                                intervention dans la matinée… La personne qui
+                                est intervenue a été très professionnelle et
+                                fort aimable. J’ai particulièrement apprécié sa
+                                franchise. Explications très claires.
                             </p>
                             <div class="flex items-center justify-between">
                                 <!-- <div class="flex items-center gap-2">
@@ -1019,7 +1031,7 @@
                                 <p
                                     class="lg:hidden font-medium text-sm leading-7 text-gray-400 lg:text-center whitespace-nowrap"
                                 >
-                                    Nov 01, 2023
+                                    Mars 03, 2025
                                 </p>
                             </div>
                         </div>
@@ -1130,7 +1142,7 @@
                     <p
                         class="font-medium text-lg leading-8 text-gray-400 lg:text-center whitespace-nowrap"
                     >
-                        Nov 01, 2023
+                        Mars 03, 2025
                     </p>
                 </div>
             </div>
